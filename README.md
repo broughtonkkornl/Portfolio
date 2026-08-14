@@ -18,7 +18,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 **Sole architect and lead developer of NASA Earthdata Pub Overview and Forms applications being used by all DAACs for all Data Producers. Official NASA "Inventor" of "Earthdata Pub".**
 
-<table align="center" width="100%">
+<table align="center" width="100%" style="margin: 0 auto; max-width: 960px; margin-bottom: 1em;">
   <tr>
     <td valign="middle" width="300">
       &nbsp;&nbsp;&nbsp;• Architecture<br>
@@ -69,7 +69,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 </div>
 
-<table align="center" width="100%" style="margin-bottom: 1.75em;!important">
+<table align="center" width="100%" style="margin: 0 auto 1.75em auto; max-width: 960px;">
   <tr>
     <td valign="middle" width="300">
       &nbsp;&nbsp;&nbsp;• Software Architecture<br>
