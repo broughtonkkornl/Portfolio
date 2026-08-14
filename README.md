@@ -16,7 +16,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 </div>
 
-**Sole architect and lead developer of NASA Earthdata Pub Overview and Forms applications being used by all DAACs for all Data Producers. Official NASA "Inventor" of "Earthdata Pub".**
+**Sole architect and lead developer of NASA Earthdata Pub Overview and Forms applications being used by all DAACs for all Data Producers. Official NASA "Inventor" of "Earthdata Pub" (NASA Case No. GSC-18, 612-1).**
 
 <table align="center" width="100%" style="margin: 0 auto; max-width: 960px; margin-bottom: 1em;">
   <tr>
@@ -104,9 +104,9 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 *Systems Architect / Application Developer*  
 Developed in: AWS Cloud, Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VSCode
 
-- Repurposed NASA's Cumulus Dashboard to create NASA's Earthdata Pub Dashboard for use of my Overview and Forms applications (Vue, React). The public version of the Earthdata Pub Suite of Products can be found at earthdatapub.org
+- Repurposed NASA's Cumulus Dashboard to create <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">NASA’s Earthdata Pub Dashboard</a> for use of my <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications (Vue, React). The public version of the Earthdata Pub Suite of Products can only be used by NASA and data producers via login and password.
 - Co-developed the Earthdata Pub REST API powering multiple NASA applications
-- Assisted in refactor of web toolkit used for evaluating hydropower
+- Assisted in refactor of <a href="web toolkit">web toolkit</a> used for evaluating hydropower
 - Implemented a new modularized web application called MyWorkSpace as a new data order system to improve users download options
 - Was 1 of 3 developers who implemented a new Ingest Dashboard for all ingest related tasks specific to the ORNL DAAC. MVP now out. This is intended to interface with Earthdata Pub to perform Quality Assurance tasks and full automation
 - Designed automation scripts that reduced manual processing time by 80%
@@ -114,28 +114,28 @@ Developed in: AWS Cloud, Python, JavaScript (above frameworks and DevOps), SQLAl
 - Implemented automated unit and end-to-end testing, improving deployment confidence and reducing regression defects
 - The importing and exporting of metadata in multiple formats
 - Modernized and maintained the ORNL DAAC web platform while supporting migration to NASA's cloud-hosted Earthdata environment, improving maintainability and supporting future platform growth
-<h2 style="margin-bottom: 1em;margin-top:.75em"></h2><br>
+<h2 style="margin-bottom: .25em;margin-top:.75em; border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **COSBY HARRISON COMPANY (Formerly TAP Publishing Company)** – Crossville, TN – **(10/16 – 04/18)**  
 *System Architect / Web Application Developer / Web Developer*  
-Developed in: Python, JavaScript, Perl, DOS, Autohotkey, HTML, CSS, SQL, Oracle, Informix, Shell, Crystal Reports, C++
+Developed in: Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle, Informix, Shell, C++
 
 - Designed and implemented administrative software system to replace data processing department
 - Streamlined and automated publishing workflows of processes reducing hours of manual work to a single button click while virtually eliminating all errors improving company costs
 - Importing and Exporting of data in multiple formats for data standardization
 - Automated tasks via scripts in multiple environments in multiple languages
 - Performing maintenance, feature and framework improvements of custom web sites, publication web sites and company sites
-<h2 style="margin-bottom: 1em;margin-top:.75em"></h2><br>
+<h2 style="margin-bottom: .25em;margin-top:.75em; border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **LIBERA, INC.** – Knoxville, TN – **(10/15 – 07/16)**  
 *Web Application Developer*  
-Developed in: VB.NET/ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
+Developed in: VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
 
 - Performed Vocational Rehabilitation program updates affecting all agencies statewide
 - Created custom queries and scripts for agency end users
 - Unit testing Vocational Rehabilitation program updates for developers statewide
 - Prepared reference documentation for users by writing operating instructions
-<h2 style="margin-bottom: 1em;margin-top:.75em"></h2><br>
+<h2 style="margin-bottom: .25em;margin-top:.75em; border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **RMB, INC.** – Knoxville, TN – **(03/15 – 07/15)**  
 *FACS Application Programmer*  
@@ -145,7 +145,7 @@ Developed in: FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports
 - Created daily jobs and import / export routines to route in and out a large amount of data
 - Created custom queries and reports for the purpose of providing timely and accurate information to end users
 - Prepared reference for users by writing operating instructions
-<h2 style="margin-bottom: 1em;margin-top:.75em"></h2><br>
+<h2 style="margin-bottom: .25em;margin-top:.75em; border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **QRS, INC.** – Knoxville, TN – **(05/09 – 02/15)**  
 *EHR Developer / Software Developer*  
