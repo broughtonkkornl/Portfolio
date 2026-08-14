@@ -114,7 +114,7 @@ Developed in: AWS Cloud, Python, JavaScript (above frameworks and DevOps), SQLAl
 - Implemented automated unit and end-to-end testing, improving deployment confidence and reducing regression defects
 - The importing and exporting of metadata in multiple formats
 - Modernized and maintained the ORNL DAAC web platform while supporting migration to NASA's cloud-hosted Earthdata environment, improving maintainability and supporting future platform growth
-<h2 style="margin-bottom: .25em;margin-top:.75em; border-bottom: 1px solid #d1d9e0"></h2><br>
+<h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **COSBY HARRISON COMPANY (Formerly TAP Publishing Company)** – Crossville, TN – **(10/16 – 04/18)**  
 *System Architect / Web Application Developer / Web Developer*  
@@ -125,7 +125,7 @@ Developed in: Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle,
 - Importing and Exporting of data in multiple formats for data standardization
 - Automated tasks via scripts in multiple environments in multiple languages
 - Performing maintenance, feature and framework improvements of custom web sites, publication web sites and company sites
-<h2 style="margin-bottom: .25em;margin-top:.75em; border-bottom: 1px solid #d1d9e0"></h2><br>
+<h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **LIBERA, INC.** – Knoxville, TN – **(10/15 – 07/16)**  
 *Web Application Developer*  
@@ -135,7 +135,7 @@ Developed in: VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
 - Created custom queries and scripts for agency end users
 - Unit testing Vocational Rehabilitation program updates for developers statewide
 - Prepared reference documentation for users by writing operating instructions
-<h2 style="margin-bottom: .25em;margin-top:.75em; border-bottom: 1px solid #d1d9e0"></h2><br>
+<h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **RMB, INC.** – Knoxville, TN – **(03/15 – 07/15)**  
 *FACS Application Programmer*  
@@ -145,7 +145,7 @@ Developed in: FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports
 - Created daily jobs and import / export routines to route in and out a large amount of data
 - Created custom queries and reports for the purpose of providing timely and accurate information to end users
 - Prepared reference for users by writing operating instructions
-<h2 style="margin-bottom: .25em;margin-top:.75em; border-bottom: 1px solid #d1d9e0"></h2><br>
+<h2 style="margin: var(--base-size-24) 0; border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **QRS, INC.** – Knoxville, TN – **(05/09 – 02/15)**  
 *EHR Developer / Software Developer*  
