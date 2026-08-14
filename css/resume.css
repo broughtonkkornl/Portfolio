@@ -1,0 +1,153 @@
+/* Kimberly K. Broughton — Printable Resume Styles */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --ink: #1a1a2e; --gray: #4a4a5a; --light-gray: #6b6b7b;
+  --accent: #1a3a6b; --page-bg: #f3f4f6; --paper: #fff;
+}
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  background: var(--page-bg); color: var(--ink);
+  line-height: 1.45; font-size: 11px;
+}
+a { color: var(--accent); text-decoration: none; }
+
+/* Print toolbar (screen only) */
+.print-toolbar {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--accent); padding: 0.75rem 1rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+.toolbar-inner {
+  max-width: 850px; margin: 0 auto;
+  display: flex; align-items: center;
+  justify-content: space-between; gap: 1rem; flex-wrap: wrap;
+}
+.toolbar-link { color: #fff; font-size: 0.9rem; font-weight: 600; }
+.toolbar-link:hover { text-decoration: underline; }
+.toolbar-btn {
+  background: #fff; color: var(--accent);
+  border: none; border-radius: 6px;
+  padding: 0.5rem 1.25rem; font-weight: 700;
+  font-size: 0.9rem; cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.toolbar-btn:hover { transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.25); }
+
+/* Resume document */
+.resume {
+  max-width: 850px; margin: 1.5rem auto;
+  background: var(--paper); padding: 2.5rem 2.75rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12); border-radius: 4px;
+}
+
+/* Header */
+.resume-header {
+  text-align: center; margin-bottom: 1.25rem;
+  border-bottom: 3px double var(--ink); padding-bottom: 1rem;
+}
+.resume-name {
+  font-size: 1.9rem; font-weight: 700;
+  letter-spacing: 0.08em; color: var(--ink); margin-bottom: 0.35rem;
+}
+.resume-contact { font-size: 0.8rem; color: var(--gray); margin-bottom: 0.75rem; }
+.resume-contact a { color: var(--accent); }
+.resume-summary {
+  font-size: 0.85rem; line-height: 1.5;
+  color: var(--gray); text-align: justify;
+}
+
+/* Sections */
+.resume-section { margin-bottom: 1.1rem; }
+.resume-section-title {
+  font-size: 0.95rem; font-weight: 700;
+  letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--accent); border-bottom: 2px solid var(--accent);
+  padding-bottom: 0.25rem; margin-bottom: 0.6rem;
+}
+
+/* Achievements */
+.resume-achievement-main { font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.35rem; }
+.resume-achievement-tags { font-size: 0.8rem; color: var(--light-gray); margin-bottom: 0.5rem; }
+.resume-achievement-list { list-style: none; }
+.resume-achievement-list li {
+  font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.35rem;
+  padding-left: 1.1rem; position: relative;
+}
+.resume-achievement-list li::before {
+  content: '\2022'; position: absolute; left: 0.25rem;
+  color: var(--accent); font-weight: 700;
+}
+.resume-date {
+  float: right; font-size: 0.78rem;
+  color: var(--light-gray); font-style: italic;
+}
+
+/* Skills */
+.resume-skill-line { font-size: 0.8rem; line-height: 1.55; margin-bottom: 0.2rem; }
+.resume-skill-line strong { color: var(--ink); }
+.resume-competencies { font-size: 0.8rem; line-height: 1.6; color: var(--gray); }
+
+/* Jobs */
+.resume-job { margin-bottom: 0.9rem; page-break-inside: avoid; }
+.resume-job-header { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+.resume-job-company { font-size: 0.95rem; font-weight: 700; color: var(--ink); }
+.resume-job-location { font-size: 0.75rem; color: var(--light-gray); }
+.resume-job-date {
+  margin-left: auto; font-size: 0.78rem;
+  font-weight: 600; color: var(--accent); white-space: nowrap;
+}
+.resume-job-title {
+  font-size: 0.82rem; font-style: italic; font-weight: 600;
+  color: var(--gray); margin-bottom: 0.3rem;
+}
+.resume-job-stack { font-size: 0.75rem; color: var(--light-gray); margin-bottom: 0.35rem; }
+.resume-job-stack strong { color: var(--gray); }
+.resume-job-bullets { list-style: none; }
+.resume-job-bullets li {
+  font-size: 0.8rem; line-height: 1.45; margin-bottom: 0.25rem;
+  padding-left: 1.1rem; position: relative; color: var(--gray);
+}
+.resume-job-bullets li::before {
+  content: '\2022'; position: absolute; left: 0.25rem;
+  color: var(--accent); font-weight: 700;
+}
+
+/* Education */
+.resume-edu-item { margin-bottom: 0.5rem; }
+.resume-edu-main { font-size: 0.82rem; line-height: 1.4; }
+.resume-edu-main strong { color: var(--ink); }
+.resume-edu-sub { font-size: 0.8rem; color: var(--gray); padding-left: 1.1rem; }
+.resume-date-inline { float: right; margin-left: 1rem; }
+
+/* Footer */
+.print-footer {
+  max-width: 850px; margin: 0 auto 2rem; padding: 0 2.75rem;
+  display: flex; justify-content: space-between;
+  align-items: center; flex-wrap: wrap; gap: 0.5rem;
+  font-size: 0.85rem; color: var(--light-gray);
+}
+.print-footer a { color: var(--accent); font-weight: 600; }
+
+/* Print rules */
+@page { size: Letter; margin: 0.75in; }
+@media print {
+  body { background: var(--paper); font-size: 10.5pt; line-height: 1.4; }
+  .no-print { display: none !important; }
+  .resume {
+    max-width: none; margin: 0; padding: 0;
+    box-shadow: none; border-radius: 0;
+  }
+  .resume-header { page-break-after: avoid; }
+  .resume-section { page-break-inside: auto; }
+  .resume-section-title { page-break-after: avoid; }
+  .resume-job { page-break-inside: avoid; }
+  a { color: var(--ink); text-decoration: none; }
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .resume { padding: 1.5rem 1.25rem; margin: 0.75rem; }
+  .resume-job-header { flex-direction: column; gap: 0; }
+  .resume-job-date { margin-left: 0; }
+  .resume-date { float: none; display: inline-block; margin-left: 0.5rem; }
+}
