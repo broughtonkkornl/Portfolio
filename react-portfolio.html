@@ -1,459 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Kimberly K. Broughton — React Portfolio</title>
-<meta name="description" content="React-powered single-page portfolio of Kimberly K. Broughton, NASA Inventor & Systems Architect." />
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
-<style>
-:root {
-  --bg: #0a0e1a; --bg-alt: #0f1525; --bg-card: #141b2e;
-  --text: #e8ecf4; --muted: #9aa6bd;
-  --primary: #4f8cff; --primary-light: #7fb0ff;
-  --accent: #37d5a4;
-  --border: rgba(255,255,255,0.08);
-  --radius: 14px;
-}
-* { margin: 0; padding: 0; box-sizing: border-box; }
-body {
-  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-  background: var(--bg); color: var(--text); line-height: 1.6;
-}
-.app { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
-section { padding: 4.5rem 0; }
-h2.title {
-  font-size: 2rem; text-align: center; margin-bottom: 2.5rem;
-  color: #fff; letter-spacing: -0.02em;
-}
-h2.title::after {
-  content: ''; display: block; width: 60px; height: 3px;
-  margin: 0.75rem auto 0; background: linear-gradient(90deg, var(--primary), var(--accent));
-  border-radius: 2px;
-}
-.eyebrow {
-  font-size: 0.8rem; font-weight: 600; letter-spacing: 0.18em;
-  text-transform: uppercase; color: var(--accent); text-align: center; margin-bottom: 0.5rem;
-}
-.card {
-  background: var(--bg-card); border: 1px solid var(--border);
-  border-radius: var(--radius); padding: 1.75rem;
-  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
-}
-.card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.35); border-color: rgba(79,140,255,0.35); }
-
-/* Navbar */
-.nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  background: rgba(10,14,26,0.88); backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
-}
-.nav-inner {
-  max-width: 1100px; margin: 0 auto; padding: 0 2rem;
-  height: 64px; display: flex; align-items: center; justify-content: space-between;
-}
-.brand { font-weight: 700; font-size: 1.3rem; color: #fff; text-decoration: none; }
-.brand span { color: var(--accent); }
-.nav-links { display: flex; gap: 1.75rem; }
-.nav-links a { color: var(--muted); text-decoration: none; font-size: 0.9rem; }
-.nav-links a:hover { color: #fff; }
-.nav-links a.active { color: var(--accent); }
-.nav-cta {
-  border: 1px solid var(--primary); border-radius: 40px;
-  padding: 0.4rem 1.1rem !important; color: var(--primary-light) !important;
-  transition: background 0.3s, color 0.3s;
-}
-.nav-cta:hover { background: var(--primary); color: #fff !important; }
-
-/* Hero */
-.hero {
-  min-height: 92vh; display: flex; flex-direction: column;
-  align-items: center; justify-content: center; text-align: center;
-  padding: 8rem 2rem 3rem; position: relative; overflow: hidden;
-  background:
-    radial-gradient(ellipse at 25% 20%, rgba(79,140,255,0.14), transparent 55%),
-    radial-gradient(ellipse at 75% 80%, rgba(55,213,164,0.10), transparent 55%),
-    var(--bg);
-}
-.hero h1 {
-  font-size: clamp(2.4rem, 6vw, 4rem); color: #fff;
-  margin: 1rem 0 1.25rem; letter-spacing: -0.03em;
-  background: linear-gradient(135deg, #fff, var(--primary-light));
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-}
-.hero .role { color: var(--accent); font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; font-size: 0.85rem; }
-.hero p.tagline { color: var(--muted); max-width: 680px; margin-bottom: 2rem; font-size: 1.05rem; }
-.btn {
-  display: inline-block; padding: 0.7rem 1.6rem; border-radius: 50px;
-  font-weight: 600; font-size: 0.9rem; text-decoration: none;
-  transition: transform 0.2s, box-shadow 0.2s; margin: 0.25rem;
-}
-.btn-primary { background: linear-gradient(135deg, var(--primary), var(--primary-light)); color: #fff; }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(79,140,255,0.4); }
-.btn-outline { border: 2px solid rgba(255,255,255,0.25); color: var(--text); }
-.btn-outline:hover { border-color: var(--primary-light); color: #fff; }
-.hero-contact { margin-top: 2.25rem; color: var(--muted); font-size: 0.9rem; display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; }
-.hero-contact a { color: var(--muted); text-decoration: none; border-bottom: 1px solid transparent; }
-.hero-contact a:hover { color: var(--primary-light); border-bottom-color: var(--primary-light); }
-
-/* Stats */
-.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.25rem; max-width: 900px; margin: 0 auto; }
-.stat { text-align: center; padding: 1.75rem; }
-.stat .num { font-size: 2.2rem; font-weight: 700; color: var(--accent); display: block; }
-.stat .label { font-size: 0.85rem; color: var(--muted); }
-
-/* Skills */
-.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; }
-.skill-card h3 { font-size: 1.05rem; margin-bottom: 1rem; color: #fff; }
-.tags { display: flex; flex-wrap: wrap; gap: 0.45rem; }
-.tags span {
-  background: rgba(79,140,255,0.09); border: 1px solid rgba(79,140,255,0.15);
-  color: var(--text); font-size: 0.78rem; padding: 0.3rem 0.8rem; border-radius: 40px;
-}
-
-/* Experience */
-.job-list { max-width: 850px; margin: 0 auto; display: grid; gap: 1.5rem; }
-.job { position: relative; border-left: 3px solid var(--primary); }
-.job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
-.job-header h3 { color: #fff; font-size: 1.2rem; }
-.job-date { color: var(--accent); font-size: 0.82rem; font-weight: 600; white-space: nowrap; }
-.job-role { color: var(--primary-light); font-size: 0.92rem; font-weight: 500; margin-bottom: 0.4rem; }
-.job-loc { color: var(--muted); font-size: 0.82rem; margin-bottom: 0.75rem; }
-.job-stack { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.9rem; }
-.job ul { list-style: none; }
-.job ul li {
-  position: relative; padding-left: 1.25rem; color: var(--muted);
-  font-size: 0.9rem; margin-bottom: 0.45rem; line-height: 1.6;
-}
-.job ul li::before { content: '\25B8'; position: absolute; left: 0; color: var(--accent); }
-
-/* Achievements */
-.ach-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.25rem; max-width: 1000px; margin: 0 auto; }
-.ach-featured {
-  grid-column: 1 / -1;
-  background: linear-gradient(135deg, var(--bg-card), #182240);
-  border: 1px solid rgba(79,140,255,0.35); padding: 2rem;
-}
-.ach-featured h3 { color: #fff; font-size: 1.35rem; margin-bottom: 0.6rem; }
-.ach-featured p { color: var(--muted); }
-.ach-card h3 { color: #fff; font-size: 1rem; margin-bottom: 0.4rem; }
-.ach-card p { color: var(--muted); font-size: 0.88rem; }
-.ach-date { display: inline-block; margin-top: 0.6rem; font-size: 0.78rem; color: var(--accent); background: rgba(55,213,164,0.1); padding: 0.2rem 0.7rem; border-radius: 40px; }
-
-/* Competencies */
-.comp-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(215px, 1fr)); gap: 1rem; max-width: 950px; margin: 0 auto; }
-.comp { display: flex; align-items: center; gap: 0.85rem; padding: 1.1rem 1.4rem; font-weight: 500; cursor: default; }
-.comp span { font-size: 1.25rem; }
-.comp:hover { border-color: rgba(55,213,164,0.35); transform: translateX(6px); }
-
-/* Education */
-.edu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; max-width: 950px; margin: 0 auto; }
-.edu h3 { color: #fff; font-size: 1.05rem; margin-bottom: 0.3rem; }
-.edu p { color: var(--muted); font-size: 0.88rem; }
-
-/* Footer */
-.footer { border-top: 1px solid var(--border); padding: 4rem 0 2.5rem; text-align: center; background: var(--bg-alt); }
-.footer h2 { color: #fff; font-size: 1.7rem; margin-bottom: 0.75rem; }
-.footer p { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
-.footer-meta { font-size: 0.82rem !important; color: var(--muted); margin-top: 1.75rem !important; }
-
-/* Section alt */
-.alt { background: var(--bg-alt); }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .nav-links { display: none; }
-  .app { padding: 0 1.25rem; }
-  section { padding: 3rem 0; }
-  .hero { padding: 6rem 1.25rem 2.5rem; }
-  .hero-contact { flex-direction: column; gap: 0.75rem; }
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kimberly K. Broughton — React Portfolio</title>
+  <meta name="description" content="React-powered portfolio of Kimberly K. Broughton, Systems Architect and NASA Inventor." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
 </head>
 <body>
-<div id="root"></div>
-<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-<script type="text/babel">
-const DATA = {
-  name: 'Kimberly K. Broughton',
-  role: 'Systems Architect / Application Developer',
-  location: '800 Poplar Creek Road • Oliver Springs, TN 37840',
-  phone: '(865) 742-9443',
-  email: 'kimberly.broughton@gmail.com',
-  summary: 'Software Engineer with over 17 years of experience designing, developing, and modernizing enterprise software solutions. Proven expertise in Python, JavaScript, automation, APIs, and database design across scientific research, healthcare, publishing, and government environments. Recognized NASA Inventor with a history of delivering scalable applications, reducing technical debt, automating complex workflows, and collaborating directly with stakeholders to transform business requirements into reliable software solutions.',
-  stats: [
-    { num: '17+', label: 'Years of Experience' },
-    { num: '1 of 3', label: 'EHR Certification Developers' },
-    { num: '80%', label: 'Manual Time Reduced via Automation' }
-  ],
-  skills: [
-    { title: '💻 Languages', tags: ['Python','JavaScript','SQL','GraphQL','SQLAlchemy','C#','C++','Java','Perl','PHP','HTML5','CSS3','XML','Shell','AWK','Visual Basic','VB.NET'] },
-    { title: '🧩 Frameworks', tags: ['Flask','Vue.js','React','Angular','Bootstrap','jQuery','Mustache','Jinja2','Cypress','Webapp2'] },
-    { title: '☁️ Cloud & DevOps', tags: ['AWS Cloud','Docker','Kubernetes','Git','GitLab','GitLab CI/CD','GitLab Runners','YAML','Automation Scripting'] },
-    { title: '🗄️ Databases', tags: ['PostgreSQL','Oracle','Microsoft SQL Server','MySQL','Informix','Cache','c-tree','Microsoft Access'] },
-    { title: '🛠️ Development Tools', tags: ['VS Code','DBVisualizer','Oracle Forms & Reports','Crystal Reports','Jasper Reports','Visual Studio','Swagger','SpectaQL','Sphinx','Vuese'] },
-    { title: '📄 Content Management', tags: ['Drupal','Joomla','WordPress'] },
-    { title: '🤖 AI Development Tools', tags: ['DUO AI','GitHub Copilot'] },
-    { title: '🖥️ Operating Systems', tags: ['Linux','Microsoft Windows'] }
-  ],
-  competencies: ['🧠 Software Architecture','⚛️ Full Stack Development','🏢 Enterprise Applications','🔗 REST APIs','🗃️ Database Design','🤖 Automation','🔀 System Integration','👥 Technical Leadership','🔄 Application Modernization','📝 Technical Documentation','✨ User Experience','📈 Agile Development'],
-  achievements: {
-    featured: {
-      title: 'NASA Inventor — Earthdata Pub',
-      text: 'Sole architect and lead developer of NASA Earthdata Pub Overview and Forms applications used by all DAACs for all Data Producers. Official NASA "Inventor" of Earthdata Pub (NASA Case No. GSC-18, 612-1).',
-      links: [
-        { href: 'https://pub.earthdata.nasa.gov/', label: 'Earthdata Pub' },
-        { href: 'https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1', label: 'Dashboard Demo' }
-      ]
-    },
-    list: [
-      { icon: '⚙️', title: 'Administrative Software System', text: 'Designed and implemented administrative software system to replace the data processing department.', date: '02/2018' },
-      { icon: '🎨', title: 'UI/UX Certified', text: 'Certified in User Experience — NN/g Nielsen Norman Group.', date: '12/2020' },
-      { icon: '🏥', title: 'ONC EHR Certification', text: 'Contributed to ONC Stage 1 & 2 Electronic Health Record Certification — 1 of 3 developers assigned.' }
-    ]
-  },
-  jobs: [
-    {
-      company: 'NASA / ORNL DAAC', loc: 'Oak Ridge, TN', date: '04/18 – 08/26',
-      role: 'Systems Architect / Application Developer',
-      stack: 'AWS Cloud, Python, JavaScript, SQLAlchemy, GraphQL, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VSCode',
-      bullets: [
-        'Repurposed NASA\'s Cumulus Dashboard to create NASA\'s Earthdata Pub Dashboard for the Overview and Forms applications (Vue, React).',
-        'Co-developed the Earthdata Pub REST API powering multiple NASA applications.',
-        'Assisted in refactor of web toolkit used for evaluating hydropower.',
-        'Implemented MyWorkSpace, a new modularized data order system improving users\' download options.',
-        '1 of 3 developers who implemented a new Ingest Dashboard for all ingest tasks at ORNL DAAC (MVP live, interfaces with Earthdata Pub for QA + full automation).',
-        'Designed automation scripts that reduced manual processing time by 80%.',
-        'Refactored sites and scripts from Perl to Python using an efficient templating system.',
-        'Implemented automated unit and end-to-end testing, improving deployment confidence and reducing regression defects.',
-        'Imported/exported metadata in multiple formats.',
-        'Modernized and maintained the ORNL DAAC web platform while supporting migration to NASA\'s cloud-hosted Earthdata environment.'
-      ]
-    },
-    {
-      company: 'Cosby Harrison Company (formerly TAP Publishing)', loc: 'Crossville, TN', date: '10/16 – 04/18',
-      role: 'System Architect / Web Application Developer / Web Developer',
-      stack: 'Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle, Informix, Shell, C++',
-      bullets: [
-        'Designed and implemented administrative software system to replace the data processing department.',
-        'Streamlined and automated publishing workflows, reducing hours of manual work to a single button click while virtually eliminating errors.',
-        'Imported/exported data in multiple formats for data standardization.',
-        'Automated tasks via scripts in multiple environments and languages.',
-        'Performed maintenance, feature, and framework improvements of custom, publication, and company web sites.'
-      ]
-    },
-    {
-      company: 'Libera, Inc.', loc: 'Knoxville, TN', date: '10/15 – 07/16',
-      role: 'Web Application Developer',
-      stack: 'VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015',
-      bullets: [
-        'Performed Vocational Rehabilitation program updates affecting all agencies statewide.',
-        'Created custom queries and scripts for agency end users.',
-        'Unit tested Vocational Rehabilitation program updates for developers statewide.',
-        'Prepared reference documentation and operating instructions for users.'
-      ]
-    },
-    {
-      company: 'RMB, Inc.', loc: 'Knoxville, TN', date: '03/15 – 07/15',
-      role: 'FACS Application Programmer',
-      stack: 'FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports',
-      bullets: [
-        'Maintained database operations at peak performance and protected secured information.',
-        'Created daily jobs and import/export routines to route large volumes of data.',
-        'Created custom queries and reports providing timely, accurate information to end users.',
-        'Prepared reference documentation and operating instructions for users.'
-      ]
-    },
-    {
-      company: 'QRS, Inc.', loc: 'Knoxville, TN', date: '05/09 – 02/15',
-      role: 'EHR Developer / Software Developer',
-      stack: 'JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-tree',
-      bullets: [
-        'Designed Standard Form Sets / Notes according to doctor specialty.',
-        'Worked with doctors directly to determine practice needs.',
-        'Indirectly managed other EHR programmers.',
-        '2nd Tier Product Support.',
-        'Documented and created instructional videos training clients on Meaningful Use.',
-        'Performed HL7 Interface design, implementation, and data conversions based on client needs.',
-        'Designed interfaces and custom programs on both back-end and front-end.'
-      ]
-    }
-  ],
-  education: [
-    { title: 'UI / UX Certification', school: 'NN/g Nielsen Norman Group', date: '12/2020' },
-    { title: 'C# Certification', school: 'Knoxville, TN', date: '12/2017' },
-    { title: 'Pellissippi Technical Community College', school: 'A.A.S. Computer Programming • A.A.S. Database Design & Development', date: '05/07 – 05/09', extra: 'GPA 3.60 • Dean\'s List Fall 2008, Spring 2007' }
-  ]
-};
+  <div id="root" aria-live="polite">Loading portfolio…</div>
 
-function NavBar({ active, onNav }) {
-  return (
-    <nav className="nav">
-      <div className="nav-inner">
-        <a href="#hero" className="brand" onClick={e => { e.preventDefault(); onNav('hero'); }}>KB<span>.</span></a>
-        <div className="nav-links">
-          {['hero','achievements','skills','experience','education'].map(id => (
-            <a key={id} href={'#' + id} className={active === id ? 'active' : ''} onClick={e => { e.preventDefault(); onNav(id); }}>
-              {id.charAt(0).toUpperCase() + id.slice(1)}
-            </a>
-          ))}
-          <a href="resume.html" target="_blank" rel="noopener noreferrer" className="nav-cta" style={{ textDecoration: 'none' }}>Printable Résumé</a>
-        </div>
-      </div>
-    </nav>
-  );
-}
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+  <script>
+    (function () {
+      'use strict';
 
-function Section({ id, eyebrow, title, alt, children }) {
-  return (
-    <section id={id} className={alt ? 'alt' : ''}>
-      <div className="app">
-        {eyebrow && <p className="eyebrow">{eyebrow}</p>}
-        <h2 className="title">{title}</h2>
-        {children}
-      </div>
-    </section>
-  );
-}
+      const { useEffect, useState } = React;
 
-function Hero({ onNav }) {
-  return (
-    <header className="hero" id="hero">
-      <span className="role">{DATA.role}</span>
-      <h1>{DATA.name}</h1>
-      <p className="tagline">Recognized NASA Inventor • 17+ Years of Enterprise Software Engineering • Full-Stack, Cloud, & Automation Expertise</p>
-      <div>
-        <a href="#experience" className="btn btn-primary" onClick={e => { e.preventDefault(); onNav('experience'); }}>View Experience</a>
-        <a href="kkb_08052026.pdf" download className="btn btn-outline">Download Résumé (PDF)</a>
-      </div>
-      <div className="hero-contact">
-        <span>{DATA.location}</span>
-        <a href="tel:18657429443">{DATA.phone}</a>
-        <a href="mailto:kimberly.broughton@gmail.com">{DATA.email}</a>
-      </div>
-    </header>
-  );
-}
+      function usePortfolioInteractions(isReady) {
+        useEffect(function () {
+          if (!isReady) return undefined;
 
-function App() {
-  const [active, setActive] = React.useState('hero');
-  const scrollTo = id => {
-    const el = document.getElementById(id);
-    if (el) { window.scrollTo({ top: el.offsetTop - 64, behavior: 'smooth' }); }
-    setActive(id);
-  };
-  React.useEffect(() => {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => { if (entry.isIntersecting) setActive(entry.target.id); });
-    }, { rootMargin: '-40% 0px -55% 0px' });
-    ['hero','achievements','skills','experience','education'].forEach(id => {
-      const el = document.getElementById(id); if (el) observer.observe(el);
-    });
-    return () => observer.disconnect();
-  }, []);
+          const navbar = document.getElementById('navbar');
+          const navToggle = document.getElementById('navToggle');
+          const navLinks = document.getElementById('navLinks');
+          const cleanups = [];
 
-  return (
-    <div>
-      <NavBar active={active} onNav={scrollTo} />
-      <Hero onNav={scrollTo} />
+          if (navbar) {
+            const handleScroll = function () {
+              navbar.classList.toggle('scrolled', window.scrollY > 50);
+            };
+            window.addEventListener('scroll', handleScroll, { passive: true });
+            handleScroll();
+            cleanups.push(function () { window.removeEventListener('scroll', handleScroll); });
+          }
 
-      <Section id="achievements" eyebrow="Highlights" title="Significant Achievements">
-        <div className="ach-grid">
-          <div className="card ach-featured">
-            <h3>🚀 {DATA.achievements.featured.title}</h3>
-            <p>{DATA.achievements.featured.text}</p>
-            <div style={{ marginTop: '1rem' }}>
-              {DATA.achievements.featured.links.map(l => (
-                <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ fontSize: '0.8rem' }}>{l.label}</a>
-              ))}
-            </div>
-          </div>
-          {DATA.achievements.list.map(a => (
-            <div key={a.title} className="card ach-card">
-              <h3>{a.icon} {a.title}</h3>
-              <p>{a.text}</p>
-              {a.date && <span className="ach-date">{a.date}</span>}
-            </div>
-          ))}
-        </div>
-      </Section>
+          if (navToggle && navLinks) {
+            const toggleNavigation = function () {
+              const isOpen = navLinks.classList.toggle('open');
+              navToggle.classList.toggle('open', isOpen);
+              navToggle.setAttribute('aria-expanded', String(isOpen));
+            };
+            const closeNavigation = function () {
+              navLinks.classList.remove('open');
+              navToggle.classList.remove('open');
+              navToggle.setAttribute('aria-expanded', 'false');
+            };
+            navToggle.addEventListener('click', toggleNavigation);
+            navLinks.querySelectorAll('a').forEach(function (link) {
+              link.addEventListener('click', closeNavigation);
+            });
+            cleanups.push(function () {
+              navToggle.removeEventListener('click', toggleNavigation);
+              navLinks.querySelectorAll('a').forEach(function (link) {
+                link.removeEventListener('click', closeNavigation);
+              });
+            });
+          }
 
-      <Section id="skills" eyebrow="What I Work With" title="Technical Skills" alt>
-        <div className="skills-grid">
-          {DATA.skills.map(s => (
-            <div key={s.title} className="card skill-card">
-              <h3>{s.title}</h3>
-              <div className="tags">{s.tags.map(t => <span key={t}>{t}</span>)}</div>
-            </div>
-          ))}
-        </div>
-      </Section>
+          const anchors = document.querySelectorAll('a[href^="#"]');
+          const smoothScroll = function (event) {
+            const target = document.querySelector(event.currentTarget.getAttribute('href'));
+            if (!target) return;
+            event.preventDefault();
+            const top = target.getBoundingClientRect().top + window.pageYOffset - 70;
+            window.scrollTo({ top: top, behavior: 'smooth' });
+          };
+          anchors.forEach(function (anchor) { anchor.addEventListener('click', smoothScroll); });
+          cleanups.push(function () {
+            anchors.forEach(function (anchor) { anchor.removeEventListener('click', smoothScroll); });
+          });
 
-      <Section id="competencies" eyebrow="Areas of Expertise" title="Core Competencies">
-        <div className="comp-grid">
-          {DATA.competencies.map(c => <div key={c} className="card comp"><span>{c.split(' ')[0]}</span><span>{c.split(' ').slice(1).join(' ')}</span></div>)}
-        </div>
-      </Section>
+          const revealElements = document.querySelectorAll('.reveal');
+          if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver(function (entries) {
+              entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                  entry.target.classList.add('visible');
+                  observer.unobserve(entry.target);
+                }
+              });
+            }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+            revealElements.forEach(function (element) { observer.observe(element); });
+            cleanups.push(function () { observer.disconnect(); });
+          } else {
+            revealElements.forEach(function (element) { element.classList.add('visible'); });
+          }
 
-      <Section id="experience" eyebrow="Career" title="Professional Experience" alt>
-        <div className="job-list">
-          {DATA.jobs.map(j => (
-            <div key={j.company} className="card job">
-              <div className="job-header">
-                <h3>{j.company}</h3>
-                <span className="job-date">{j.date}</span>
-              </div>
-              <p className="job-role">{j.role}</p>
-              <p className="job-loc">📍 {j.loc}</p>
-              <p className="job-stack"><strong>Developed in:</strong> {j.stack}</p>
-              <ul>{j.bullets.map(b => <li key={b}>{b}</li>)}</ul>
-            </div>
-          ))}
-        </div>
-      </Section>
+          document.querySelectorAll('.footer-copy').forEach(function (element) {
+            element.innerHTML = element.innerHTML.replace('2026', String(new Date().getFullYear()));
+          });
 
-      <Section id="education" eyebrow="Learning" title="Education & Certifications">
-        <div className="edu-grid">
-          {DATA.education.map(e => (
-            <div key={e.title} className="card edu">
-              <h3>{e.title}</h3>
-              <p>{e.school}</p>
-              {e.extra && <p style={{ color: 'var(--primary-light)' }}>{e.extra}</p>}
-              <span className="ach-date">{e.date}</span>
-            </div>
-          ))}
-        </div>
-      </Section>
+          return function () { cleanups.forEach(function (cleanup) { cleanup(); }); };
+        }, [isReady]);
+      }
 
-      <div className="stats" style={{ margin: '3rem auto 0' }}>
-        {DATA.stats.map(s => (
-          <div key={s.label} className="card stat">
-            <span className="num">{s.num}</span>
-            <span className="label">{s.label}</span>
-          </div>
-        ))}
-      </div>
+      function HtmlBlock(props) {
+        return React.createElement('div', {
+          dangerouslySetInnerHTML: { __html: props.markup }
+        });
+      }
 
-      <footer className="footer">
-        <div className="app">
-          <h2>Let's Connect</h2>
-          <p>Open to opportunities in software architecture, full-stack development, and cloud modernization.</p>
-          <div>
-            <a href="mailto:kimberly.broughton@gmail.com" className="btn btn-primary">✉️ Email Me</a>
-            <a href="kkb_08052026.pdf" download className="btn btn-outline">📄 Download Résumé</a>
-            <a href="resume.html" target="_blank" rel="noopener noreferrer" className="btn btn-outline">🖨️ Printable Version</a>
-          </div>
-          <p className="footer-meta">{DATA.location} • {DATA.phone} • {DATA.email}</p>
-          <p style={{ fontSize: '0.78rem', marginTop: '0.5rem' }}>© {new Date().getFullYear()} Kimberly K. Broughton • Built with React</p>
-        </div>
-      </footer>
-    </div>
-  );
-}
+      function Navigation(props) { return React.createElement(HtmlBlock, props); }
+      function Hero(props) { return React.createElement(HtmlBlock, props); }
+      function About(props) { return React.createElement(HtmlBlock, props); }
+      function Achievements(props) { return React.createElement(HtmlBlock, props); }
+      function Skills(props) { return React.createElement(HtmlBlock, props); }
+      function Competencies(props) { return React.createElement(HtmlBlock, props); }
+      function Experience(props) { return React.createElement(HtmlBlock, props); }
+      function Education(props) { return React.createElement(HtmlBlock, props); }
+      function GitHubIcon() {
+        return React.createElement('svg', { className: 'contact-icon', viewBox: '0 0 16 16', 'aria-hidden': 'true', focusable: 'false' },
+          React.createElement('path', { d: 'M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 4.73c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z' })
+        );
+      }
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
-</script>
+      function Footer() {
+        const h = React.createElement;
+        const external = { target: '_blank', rel: 'noopener noreferrer' };
+        return h('footer', { className: 'footer', id: 'contact' },
+          h('div', { className: 'container' },
+            h('h2', { className: 'footer-title' }, "Let's Connect"),
+            h('p', { className: 'footer-sub' }, 'Open to opportunities in software architecture, full-stack development, and automation.'),
+            h('div', { className: 'footer-links' },
+              h('a', { href: 'mailto:kimberly.broughton@gmail.com', className: 'btn btn-primary' }, '✉️ Email Me'),
+              h('a', { href: 'kkb_08052026.pdf', className: 'btn btn-outline', download: true }, '📄 Download Résumé'),
+              h('a', { href: 'resume.html', className: 'btn btn-outline', ...external }, '🖨️ Printable Version')
+            ),
+            h('div', { className: 'footer-profile-links' },
+              h('a', { href: 'https://github.com/broughtonkkornl/Portfolio', ...external }, h(GitHubIcon), ' GitHub'),
+              h('a', { href: 'https://broughtonkkornl.github.io/Portfolio/', ...external }, '🌐 Portfolio')
+            ),
+            h('ul', { className: 'hero-contact footer-contact' },
+              h('li', null, '📍 Oliver Springs, TN 37840'),
+              h('li', null, h('a', { href: 'tel:+18657429443' }, '📞 (865) 742-9443')),
+              h('li', null, h('a', { href: 'mailto:kimberly.broughton@gmail.com' }, '✉️ kimberly.broughton@gmail.com')),
+              h('li', null, h('a', { href: 'https://www.linkedin.com/in/kim-broughton', ...external }, '💼 LinkedIn'))
+            ),
+            h('p', { className: 'footer-copy' }, '© ' + new Date().getFullYear() + ' Kimberly K. Broughton • Built with React')
+          )
+        );
+      }
+
+      function PortfolioLayout(props) {
+        const sections = props.sections;
+        return React.createElement(React.Fragment, null,
+          React.createElement(Navigation, { markup: sections.navigation }),
+          React.createElement(Hero, { markup: sections.hero }),
+          React.createElement(About, { markup: sections.about }),
+          React.createElement(Achievements, { markup: sections.achievements }),
+          React.createElement(Skills, { markup: sections.skills }),
+          React.createElement(Competencies, { markup: sections.competencies }),
+          React.createElement(Experience, { markup: sections.experience }),
+          React.createElement(Education, { markup: sections.education }),
+          React.createElement(Footer)
+        );
+      }
+
+      function Portfolio() {
+        const [sections, setSections] = useState(null);
+        const [error, setError] = useState('');
+
+        useEffect(function () {
+          fetch('index.html', { cache: 'no-store' })
+            .then(function (response) {
+              if (!response.ok) throw new Error('Unable to load the portfolio source.');
+              return response.text();
+            })
+            .then(function (html) {
+              const documentFragment = new DOMParser().parseFromString(html, 'text/html');
+              documentFragment.querySelectorAll('script, base').forEach(function (element) { element.remove(); });
+              const markupFor = function (selector) {
+                const element = documentFragment.querySelector(selector);
+                return element ? element.outerHTML : '';
+              };
+              setSections({
+                navigation: markupFor('nav#navbar').replace(
+                  'href="react-portfolio.html" class="nav-cta">React Version',
+                  'href="index.html" class="nav-cta">Static Version'
+                ),
+                hero: markupFor('header#top'),
+                about: markupFor('section#about'),
+                achievements: markupFor('section#achievements'),
+                skills: markupFor('section#skills'),
+                competencies: markupFor('section#competencies'),
+                experience: markupFor('section#experience'),
+                education: markupFor('section#education'),
+                footer: markupFor('footer#contact')
+              });
+            })
+            .catch(function () {
+              setError('Unable to load the portfolio. Please open this page through the site server.');
+            });
+        }, []);
+
+        useEffect(function () {
+          if (!sections || !window.location.hash) return undefined;
+          const target = document.querySelector(window.location.hash);
+          if (!target) return undefined;
+          requestAnimationFrame(function () { target.scrollIntoView(); });
+          return undefined;
+        }, [sections]);
+
+        usePortfolioInteractions(Boolean(sections));
+
+        if (error) return React.createElement('main', { className: 'section' },
+          React.createElement('div', { className: 'container' }, error));
+        if (!sections) return React.createElement('main', { className: 'section' },
+          React.createElement('div', { className: 'container' }, 'Loading portfolio…'));
+
+        return React.createElement(PortfolioLayout, { sections: sections });
+      }
+
+      ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(Portfolio));
+    })();
+  </script>
 </body>
 </html>

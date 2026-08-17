@@ -59,6 +59,14 @@ a:hover {
   color: var(--white);
 }
 
+.contact-icon {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.2em;
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
 ul {
   list-style: none;
 }
@@ -140,6 +148,16 @@ ul {
   font-weight: 700;
   color: var(--white);
   letter-spacing: 0.03em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.brand svg {
+  display: block;
+  width: 50px;
+  height: 50px;
 }
 
 .brand-dot {
@@ -360,6 +378,17 @@ ul {
   flex-wrap: wrap;
   font-size: 0.95rem;
   color: var(--text-muted);
+}
+
+.hero-contact a,
+.hero-contact span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.hero-contact svg {
+  flex-shrink: 0;
 }
 
 .hero-contact a {
@@ -897,14 +926,47 @@ ul {
   margin-bottom: 2.5rem;
 }
 
+.footer-profile-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer-profile-links a {
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-profile-links a:hover {
+  color: var(--primary-light);
+}
+
+.hero-profile-links {
+  margin-bottom: 1rem;
+}
+
 .footer-meta {
   color: var(--text-muted);
   font-size: 0.9rem;
   margin-bottom: 0.75rem;
 }
 
+.footer-contact {
+  margin-bottom: 0.75rem;
+}
+
 .footer-meta a {
   color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.footer-meta svg {
+  flex-shrink: 0;
 }
 
 .footer-meta a:hover {

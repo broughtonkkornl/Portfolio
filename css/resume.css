@@ -117,6 +117,7 @@ a { color: var(--accent); text-decoration: none; }
 .resume-edu-main { font-size: 0.82rem; line-height: 1.4; }
 .resume-edu-main strong { color: var(--ink); }
 .resume-edu-sub { font-size: 0.8rem; color: var(--gray); padding-left: 1.1rem; }
+.resume-edu-bullets { margin: 0.15rem 0 0 1.1rem; }
 .resume-date-inline { float: right; margin-left: 1rem; }
 
 /* Footer */

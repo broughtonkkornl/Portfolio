@@ -17,7 +17,7 @@
 <nav class="navbar" id="navbar">
   <div class="nav-inner">
     <a href="#top" class="brand" aria-label="KB — home">
-      <svg class="brand-logo" viewBox="0 0 32 32" width="28" height="28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <svg class="brand-logo" viewBox="0 0 32 32" width="40" height="40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <defs>
           <linearGradient id="brandGrad" x1="0" y1="0" x2="1" y2="1">
             <stop offset="0%" stop-color="#4f8cff"/>
@@ -61,17 +61,24 @@
     <h1 class="hero-name">Kimberly K. Broughton</h1>
     <p class="hero-tagline">
       Recognized NASA Inventor &bull; 17+ Years of Enterprise Software Engineering &bull;
-      Full-Stack, Cloud, & Automation Expertise
+      Full-Stack, Automation, & Database Design Expertise
     </p>
     <div class="hero-links">
       <a href="#experience" class="btn btn-primary">View Experience</a>
       <a href="kkb_08052026.pdf" class="btn btn-outline" download>Download Résumé (PDF)</a>
     </div>
-    <ul class="hero-contact">
-      <li>📍 Oliver Springs, TN 37840</li>
-      <li><a href="tel:18657429443">📞 (865) 742-9443</a></li>
-      <li><a href="mailto:kimberly.broughton@gmail.com">✉️ kimberly.broughton@gmail.com</a></li>
-    </ul>
+    <div class="hero-contact-groups">
+      <div class="footer-profile-links hero-profile-links">
+        <a href="https://github.com/broughtonkkornl/Portfolio" target="_blank" rel="noopener noreferrer"><svg class="contact-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 4.73c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg> GitHub</a>
+        <a href="https://broughtonkkornl.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">🌐 Portfolio</a>
+      </div>
+      <ul class="hero-contact">
+        <li>📍 Oliver Springs, TN 37840</li>
+        <li><a href="tel:+18657429443">📞 (865) 742-9443</a></li>
+        <li><a href="mailto:kimberly.broughton@gmail.com">✉️ kimberly.broughton@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/kim-broughton" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a></li>
+      </ul>
+    </div>
   </div>
   <a href="#about" class="scroll-indicator" aria-label="Scroll down">
     <span></span>
@@ -198,13 +205,6 @@
         </ul>
       </div>
       <div class="skill-card reveal">
-        <h3><span class="skill-emoji">☁️</span> Cloud & DevOps</h3>
-        <ul class="skill-tags">
-          <li>AWS Cloud</li><li>Docker</li><li>Kubernetes</li><li>Git</li><li>GitLab</li>
-          <li>GitLab CI/CD Pipelines</li><li>GitLab Runners</li><li>YAML</li><li>Automation Scripting</li>
-        </ul>
-      </div>
-      <div class="skill-card reveal">
         <h3><span class="skill-emoji">🗄️</span> Databases</h3>
         <ul class="skill-tags">
           <li>PostgreSQL</li><li>Oracle</li><li>Microsoft SQL Server</li><li>MySQL</li>
@@ -217,6 +217,13 @@
           <li>VS Code</li><li>DBVisualizer</li><li>Oracle Forms & Reports</li><li>Crystal Reports</li>
           <li>Jasper Reports</li><li>Visual Studio</li><li>Swagger</li><li>SpectaQL</li>
           <li>Sphinx</li><li>Vuese</li>
+        </ul>
+      </div>
+      <div class="skill-card reveal">
+        <h3><span class="skill-emoji">☁️</span> Cloud & DevOps</h3>
+        <ul class="skill-tags">
+          <li>AWS Cloud</li><li>Docker</li><li>Kubernetes</li><li>Git</li><li>GitLab</li>
+          <li>GitLab CI/CD Pipelines</li><li>GitLab Runners</li><li>YAML</li><li>Automation Scripting</li>
         </ul>
       </div>
       <div class="skill-card reveal">
@@ -287,16 +294,16 @@
             HTML, CSS, SQL, Drupal, DBVisualizer, VSCode
           </p>
           <ul class="timeline-bullets">
-            <li>Repurposed NASA's Cumulus Dashboard to create <strong>NASA's Earthdata Pub Dashboard</strong> for use of the Overview and Forms applications (Vue, React).</li>
+            <li>Repurposed NASA's Cumulus Dashboard into the <strong><a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">NASA's Earthdata Pub Dashboard</a> powering my <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications (Vue, React), serving all NASA DAACs and data producers.</strong></li>
             <li>Co-developed the <strong>Earthdata Pub REST API</strong> powering multiple NASA applications.</li>
-            <li>Assisted in refactor of web toolkit used for evaluating hydropower.</li>
-            <li>Implemented a new modularized web application called <strong>MyWorkSpace</strong> as a new data order system to improve users' download options.</li>
-            <li>Was 1 of 3 developers who implemented a new <strong>Ingest Dashboard</strong> for all ingest-related tasks specific to the ORNL DAAC (MVP live, interfaces with Earthdata Pub for QA tasks and full automation).</li>
+            <li>Assisted in refactoring and expansion of River Function Indicator Questionnaire (RFIQ) to <a href="https://hydroeds.ornl.gov/" target="_blank" rel="noopener noreferrer">Environmental Decision Support Toolkit</a>.</li>
+            <li>Designed and implemented <strong>MyWorkSpace</strong>, a modular data order application expanding user download options.</li>
+            <li>Was 1 of 3 developers who delivered an <strong>Ingest Dashboard</strong> for ORNL DAAC ingest operations (MVP live), architected to interface with Earthdata Pub for QA and full automation.</li>
             <li>Designed automation scripts that <strong>reduced manual processing time by 80%</strong>.</li>
             <li>Refactored sites and scripts from Perl to Python using an efficient templating system.</li>
             <li>Implemented automated unit and end-to-end testing, improving deployment confidence and reducing regression defects.</li>
-            <li>The importing and exporting of metadata in multiple formats.</li>
-            <li>Modernized and maintained the ORNL DAAC web platform while supporting migration to NASA's cloud-hosted Earthdata environment.</li>
+            <li>Implemented metadata import/export pipelines supporting multiple formats and standards.</li>
+            <li>Modernized and maintained the ORNL DAAC web platform while supporting migration to NASA's cloud-hosted Earthdata environment, improving maintainability and supporting future platform growth.</li>
           </ul>
         </div>
       </div>
@@ -317,11 +324,11 @@
             Oracle, Informix, Shell, C++
           </p>
           <ul class="timeline-bullets">
-            <li>Designed and implemented administrative software system to <strong>replace the data processing department</strong>.</li>
-            <li>Streamlined and automated publishing workflows, reducing hours of manual work to a single button click while virtually eliminating all errors and improving company costs.</li>
-            <li>Importing and exporting of data in multiple formats for data standardization.</li>
-            <li>Automated tasks via scripts in multiple environments in multiple languages.</li>
-            <li>Performed maintenance, feature, and framework improvements of custom web sites, publication web sites, and company sites.</li>
+            <li>Designed and implemented administrative software system to <strong>replace the entire data processing department</strong>.</li>
+            <li>Automated publishing workflows, reducing hours of manual work to a single button click while virtually eliminating errors and improving company costs.</li>
+            <li>Standardized data across multiple formats via automated import/export pipelines.</li>
+            <li>Automated tasks via scripts across multiple environments and languages.</li>
+            <li>Maintained and enhanced custom, publication, and company web platforms with feature and framework improvements.</li>
           </ul>
         </div>
       </div>
@@ -341,10 +348,10 @@
             <strong>Developed in:</strong> VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
           </p>
           <ul class="timeline-bullets">
-            <li>Performed Vocational Rehabilitation program updates affecting <strong>all agencies statewide</strong>.</li>
-            <li>Created custom queries and scripts for agency end users.</li>
-            <li>Unit testing Vocational Rehabilitation program updates for developers statewide.</li>
-            <li>Prepared reference documentation for users by writing operating instructions.</li>
+            <li>Implemented Vocational Rehabilitation program updates affecting <strong>all agencies statewide</strong>.</li>
+            <li>Created custom queries and scripts enabling agency end users to access timely reporting data.</li>
+            <li>Performed unit testing for statewide Vocational Rehabilitation program updates supporting developers across the state.</li>
+            <li>Wrote operating instructions and reference documentation for end users.</li>
           </ul>
         </div>
       </div>
@@ -364,10 +371,10 @@
             <strong>Developed in:</strong> FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports
           </p>
           <ul class="timeline-bullets">
-            <li>Assisted in maintaining database operations at peak performance, protecting secured information, and maintaining integrity of data.</li>
-            <li>Created daily jobs and import/export routines to route in and out a large amount of data.</li>
-            <li>Created custom queries and reports for the purpose of providing timely and accurate information to end users.</li>
-            <li>Prepared reference for users by writing operating instructions.</li>
+            <li>Maintained database operations at peak performance, protecting secured information and ensuring data integrity.</li>
+            <li>Built daily jobs and import/export routines routing high-volume data in and out of production systems.</li>
+            <li>Created custom queries and reports providing timely and accurate information to end users.</li>
+            <li>Wrote operating instructions and reference documentation for users.</li>
           </ul>
         </div>
       </div>
@@ -387,13 +394,13 @@
             <strong>Developed in:</strong> JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-tree
           </p>
           <ul class="timeline-bullets">
-            <li>Designed Standard Form Sets / Notes according to doctor specialty.</li>
-            <li>Worked with doctors directly to determine practice needs.</li>
-            <li>Indirectly managed other EHR programmers.</li>
-            <li>2nd Tier Product Support.</li>
-            <li>Documented and created instructional videos to train clients on Meaningful Use.</li>
-            <li>Performed HL7 Interface design and implementation as well as data conversions based on client needs.</li>
-            <li>Designed interfaces and custom programs based on client needs on both back-end and front-end.</li>
+            <li>Indirectly led other EHR programmers on client-facing clinical software projects.</li>
+            <li>Designed Standard Form Sets / Notes tailored to doctor specialty.</li>
+            <li>Worked directly with doctors to determine practice needs and translate them into software solutions.</li>
+            <li>Provided Tier 2 product support, resolving escalated client issues.</li>
+            <li>Created documentation and instructional videos training clients on Meaningful Use compliance and adoption.</li>
+            <li>Implemented HL7 interfaces and data conversions based on client needs.</li>
+            <li>Designed back-end and front-end interfaces and custom programs based on client needs.</li>
           </ul>
         </div>
       </div>
@@ -441,15 +448,22 @@
 <footer class="footer" id="contact">
   <div class="container">
     <h2 class="footer-title">Let's Connect</h2>
-    <p class="footer-sub">Open to opportunities in software architecture, full-stack development, and cloud modernization.</p>
+    <p class="footer-sub">Open to opportunities in software architecture, full-stack development, and automation.</p>
     <div class="footer-links">
       <a href="mailto:kimberly.broughton@gmail.com" class="btn btn-primary">✉️ Email Me</a>
       <a href="kkb_08052026.pdf" class="btn btn-outline" download>📄 Download Résumé</a>
       <a href="resume.html" class="btn btn-outline" target="_blank">🖨️ Printable Version</a>
     </div>
-    <p class="footer-meta">
-      800 Poplar Creek Road &bull; Oliver Springs, TN 37840 &bull; <a href="tel:18657429443">(865) 742-9443</a> &bull; <a href="mailto:kimberly.broughton@gmail.com">kimberly.broughton@gmail.com</a>
-    </p>
+    <div class="footer-profile-links">
+      <a href="https://github.com/broughtonkkornl/Portfolio" target="_blank" rel="noopener noreferrer"><svg class="contact-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.65 7.65 0 0 1 8 4.73c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/></svg> GitHub</a>
+      <a href="https://broughtonkkornl.github.io/Portfolio/" target="_blank" rel="noopener noreferrer">🌐 Portfolio</a>
+    </div>
+    <ul class="hero-contact footer-contact">
+      <li>📍 Oliver Springs, TN 37840</li>
+      <li><a href="tel:+18657429443">📞 (865) 742-9443</a></li>
+      <li><a href="mailto:kimberly.broughton@gmail.com">✉️ kimberly.broughton@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/kim-broughton" target="_blank" rel="noopener noreferrer">💼 LinkedIn</a></li>
+    </ul>
     <p class="footer-copy">© 2026 Kimberly K. Broughton &bull; Built with HTML, CSS & JavaScript</p>
   </div>
 </footer>

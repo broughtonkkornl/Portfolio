@@ -3,7 +3,7 @@
     <summary>
       <h1 style="padding: 0; display: inline-block;"><b>KIMBERLY K. BROUGHTON</b></h1>
     </summary>
-    <font size="normal"><p align="center">800 Poplar Creek Road • Oliver Springs, TN 37840 • (865) 742-9443 • <a href="mailto:kimberly.broughton@gmail.com">kimberly.broughton@gmail.com</a></p></font>
+    <font size="normal"><p align="center">Oliver Springs, TN 37840 • (865) 742-9443 • <a href="mailto:kimberly.broughton@gmail.com">kimberly.broughton@gmail.com</a> • <a href="https://www.linkedin.com/in/kim-broughton">LinkedIn</a> • <a href="https://github.com/broughtonkkornl/Portfolio">Github</a> • <a href="https://broughtonkkornl.github.io/Portfolio/">Portfolio</a></p></font>
   </ul>
 </div>
 Software Engineer with over 17 years of experience designing, developing, and modernizing enterprise software solutions. Proven expertise in Python, JavaScript, automation, APIs, and database design across scientific research, healthcare, publishing, and government environments. Recognized NASA Inventor with a history of delivering scalable applications, reducing technical debt, automating complex workflows, and collaborating directly with stakeholders to transform business requirements into reliable software solutions.
@@ -16,7 +16,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 </div>
 
-**Sole architect and lead developer of NASA Earthdata Pub Overview and Forms applications being used by all DAACs for all Data Producers. Official NASA "Inventor" of "Earthdata Pub" (NASA Case No. GSC-18, 612-1).**
+**Sole architect and lead developer of NASA Earthdata Pub Overview and Forms applications used by all 12 NASA DAACs for all Data Producers. Official NASA "Inventor" of Earthdata Pub (NASA Case No. GSC-18, 612-1).**
 
 <table align="center" width="100%" style="margin: 0 auto; max-width: 960px; margin-bottom: 1em;">
   <tr>
@@ -53,12 +53,12 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 </div>
 
 **Languages:** Python, JavaScript, SQL, GraphQL, SQLAlchemy, C#, C++, Java, Perl, PHP, HTML5, CSS3, XML, Shell, AWK, Visual Basic, VB.NET  
-**Frameworks:** Flask, Vue.js, React, Angular, Bootstrap, jQuery, Mustache, Jinja2, Cypress, Webapp2  
+**Frameworks:** Flask, Vue.js, React, Angular, Bootstrap, jQuery, Mustache, Jinja2, Cypress, Webapp2
 **Cloud & DevOps:** AWS Cloud, Docker, Kubernetes, Git, GitLab, GitLab CI/CD Pipelines, GitLab Runners, YAML, Automation Scripting  
 **Databases:** PostgreSQL, Oracle, Microsoft SQL Server, MySQL, Informix, Cache, c-tree, Microsoft Access  
-**Development Tools:** VS Code, DBVisualizer, Oracle Forms & Reports, Crystal Reports, Jasper Reports, Visual Studio, Swagger, SpectaQL, Sphinx, Vuese  
+**Development Tools:** VS Code, DBVisualizer, Oracle Forms & Reports, Crystal Reports, Jasper Reports, Visual Studio, Swagger, SpectaQL, Sphinx, Vuese
 **Content Management:** Drupal, Joomla, WordPress  
-**AI Development Tools:** DUO AI, GitHub Copilot  
+**AI Development Tools:** Cline, DUO AI, GitHub Copilot  
 **Operating Systems:** Linux, Microsoft Windows
 
 ---
@@ -102,17 +102,17 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 **NASA / ORNL DAAC** – Oak Ridge, TN – **(04/18 – 08/26)**  
 *Systems Architect / Application Developer*  
-Developed in: AWS Cloud, Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VSCode
+Developed in: Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, AWS Cloud, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VSCode
 
-- Repurposed NASA's Cumulus Dashboard to create <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">NASA’s Earthdata Pub Dashboard</a> for use of my <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications (Vue, React). The public version of the Earthdata Pub Suite of Products can only be used by NASA and data producers via login and password.
+- Repurposed NASA's Cumulus Dashboard into the <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">NASA’s Earthdata Pub Dashboard</a> powering my <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications (Vue, React) serving all 12 NASA DAACs and hundreds of data producers
 - Co-developed the Earthdata Pub REST API powering multiple NASA applications
-- Assisted in refactor of <a href="web toolkit">web toolkit</a> used for evaluating hydropower
-- Implemented a new modularized web application called MyWorkSpace as a new data order system to improve users download options
-- Was 1 of 3 developers who implemented a new Ingest Dashboard for all ingest related tasks specific to the ORNL DAAC. MVP now out. This is intended to interface with Earthdata Pub to perform Quality Assurance tasks and full automation
+- Assisted in refactoring and expansion of River Function Indicator Questionnaire (RFIQ) to a generalized <a href="https://hydroeds.ornl.gov/">Environmental Decision Support Toolkit</a>
+- Designed and implemented MyWorkSpace, a modular data order application expanding user download options
+- Was 1 of 3 developers who delivered an Ingest Dashboard for ORNL DAAC ingest operations (MVP live), architected to interface with Earthdata Pub for QA and full automation
 - Designed automation scripts that reduced manual processing time by 80%
-- Refactored sites and scripts from perl to python, using an efficient templating system
+- Refactored sites and scripts from Perl to Python using an efficient templating system
 - Implemented automated unit and end-to-end testing, improving deployment confidence and reducing regression defects
-- The importing and exporting of metadata in multiple formats
+- Implemented metadata import/export pipelines supporting multiple formats and standards
 - Modernized and maintained the ORNL DAAC web platform while supporting migration to NASA's cloud-hosted Earthdata environment, improving maintainability and supporting future platform growth
 <h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
 
@@ -120,44 +120,44 @@ Developed in: AWS Cloud, Python, JavaScript (above frameworks and DevOps), SQLAl
 *System Architect / Web Application Developer / Web Developer*  
 Developed in: Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle, Informix, Shell, C++
 
-- Designed and implemented administrative software system to replace data processing department
-- Streamlined and automated publishing workflows of processes reducing hours of manual work to a single button click while virtually eliminating all errors improving company costs
-- Importing and Exporting of data in multiple formats for data standardization
-- Automated tasks via scripts in multiple environments in multiple languages
-- Performing maintenance, feature and framework improvements of custom web sites, publication web sites and company sites
+- Designed and implemented administrative software system to replace the entire data processing department
+- Automated publishing workflows, reducing hours of manual work to a single button click while virtually eliminating errors and improving company costs
+- Standardized data across multiple formats via automated import/export pipelines
+- Automated tasks via scripts across multiple environments and languages
+- Maintained and enhanced custom, publication, and company web platforms with feature and framework improvements
 <h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **LIBERA, INC.** – Knoxville, TN – **(10/15 – 07/16)**  
 *Web Application Developer*  
-Developed in: VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
+Developed in: VB.NET/ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
 
-- Performed Vocational Rehabilitation program updates affecting all agencies statewide
-- Created custom queries and scripts for agency end users
-- Unit testing Vocational Rehabilitation program updates for developers statewide
-- Prepared reference documentation for users by writing operating instructions
+- Implemented Vocational Rehabilitation program updates affecting all agencies statewide
+- Created custom queries and scripts enabling agency end users to access timely reporting data
+- Performed unit testing for statewide Vocational Rehabilitation program updates supporting developers across the state
+- Wrote operating instructions and reference documentation for end users
 <h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **RMB, INC.** – Knoxville, TN – **(03/15 – 07/15)**  
 *FACS Application Programmer*  
 Developed in: FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports
 
-- Assisted in maintaining database operations at peak performance, protect secured information, and maintain integrity of data
-- Created daily jobs and import / export routines to route in and out a large amount of data
-- Created custom queries and reports for the purpose of providing timely and accurate information to end users
-- Prepared reference for users by writing operating instructions
+- Maintained database operations at peak performance, protecting secured information and ensuring data integrity
+- Built daily jobs and import/export routines routing high-volume data in and out of production systems
+- Created custom queries and reports providing timely and accurate information to end users
+- Wrote operating instructions and reference documentation for users
 <h2 style="margin: var(--base-size-24) 0; border-bottom: 1px solid #d1d9e0"></h2><br>
 
 **QRS, INC.** – Knoxville, TN – **(05/09 – 02/15)**  
 *EHR Developer / Software Developer*  
 Developed in: Javascript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-tree
 
-- Designed Standard Form Sets / Notes according to doctor specialty
-- Worked with doctors directly to determine practice needs
-- Indirectly managed other EHR programmers
-- 2nd Tier Product Support
-- Documented and created instructional videos to train clients on Meaningful Use
-- Performed HL7 Interface design and implementation as well as data conversions based on client needs
-- Designed interfaces and custom programs based on client needs both on back-end and front-end
+- Indirectly led other EHR programmers on client-facing clinical software projects
+- Designed Standard Form Sets / Notes tailored to doctor specialty
+- Worked directly with doctors to determine practice needs and translate them into software solutions
+- Provided Tier 2 product support, resolving escalated client issues
+- Created documentation and instructional videos training clients on Meaningful Use compliance and adoption
+- Implemented HL7 interfaces and data conversions based on client needs
+- Designed back-end and front-end interfaces and custom programs based on client needs
 
 ---
 
