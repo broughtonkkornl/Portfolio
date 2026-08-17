@@ -53,10 +53,10 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 </div>
 
 **Languages:** Python, JavaScript, SQL, GraphQL, SQLAlchemy, C#, C++, Java, Perl, PHP, HTML5, CSS3, XML, Shell, AWK, Visual Basic, VB.NET  
-**Frameworks:** Flask, Vue.js, React, Angular, Bootstrap, jQuery, Mustache, Jinja2, Cypress, Webapp2
+**Frameworks:** Flask, Vue.js, React, Angular, Bootstrap, jQuery, Mustache, Jinja2, Cypress, Webapp2  
 **Cloud & DevOps:** AWS Cloud, Docker, Kubernetes, Git, GitLab, GitLab CI/CD Pipelines, GitLab Runners, YAML, Automation Scripting  
 **Databases:** PostgreSQL, Oracle, Microsoft SQL Server, MySQL, Informix, Cache, c-tree, Microsoft Access  
-**Development Tools:** VS Code, DBVisualizer, Oracle Forms & Reports, Crystal Reports, Jasper Reports, Visual Studio, Swagger, SpectaQL, Sphinx, Vuese
+**Development Tools:** VS Code, DBVisualizer, Oracle Forms & Reports, Crystal Reports, Jasper Reports, Visual Studio, Swagger, SpectaQL, Sphinx, Vuese  
 **Content Management:** Drupal, Joomla, WordPress  
 **AI Development Tools:** Cline, DUO AI, GitHub Copilot  
 **Operating Systems:** Linux, Microsoft Windows
