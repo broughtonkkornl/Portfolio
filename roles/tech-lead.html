@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kimberly K. Broughton — Full-Stack Developer</title>
+  <title>Kimberly K. Broughton — Tech Lead</title>
   <style>
     :root { color: #1f2937; background: #eef2f7; font-family: Arial, sans-serif; }
     body { margin: 0; padding: 2rem; }
@@ -25,7 +25,7 @@
   <main id="preview" aria-busy="true">Loading tailored résumé…</main>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script>
-    fetch('full-stack-developer-10.md', { cache: 'no-store' })
+    fetch('tech-lead.md', { cache: 'no-store' })
       .then(function (response) { return response.text(); })
       .then(function (markdown) { var preview = document.getElementById('preview'); preview.innerHTML = marked.parse(markdown); preview.setAttribute('aria-busy', 'false'); document.getElementById('loadStatus').textContent = 'Tailored résumé loaded.'; })
       .catch(function () { var preview = document.getElementById('preview'); preview.textContent = 'Unable to load the tailored résumé.'; preview.setAttribute('aria-busy', 'false'); document.getElementById('loadStatus').textContent = 'Unable to load the tailored résumé.'; });
