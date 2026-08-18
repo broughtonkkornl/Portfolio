@@ -40,7 +40,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 **Automated publishing workflows from hours of manual work to a single button click, virtually eliminating errors and improving costs (02/2018)**
 
-**Contributed to ONC Stage 1 and Stage 2 Electronic Health Record Certification: Electronic Health Record Software Certification - 1 of 3 developers assigned**
+**Contributed to ONC Stage 1 and Stage 2 Electronic Health Record certification as one of three assigned developers.**
 
 ---
 
@@ -149,6 +149,7 @@ Developed in: FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports
 Developed in: JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-tree
 
 - Indirectly led other EHR programmers on client-facing clinical software projects
+- Contributed to ONC Stage 1 and Stage 2 Electronic Health Record certification as one of three assigned developers
 - Designed Standard Form Sets / Notes tailored to doctor specialty
 - Worked directly with doctors to determine practice needs and translate them into software solutions
 - Provided Tier 2 product support, resolving escalated client issues

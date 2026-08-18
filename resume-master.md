@@ -14,7 +14,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 - Sole architect and lead developer of NASA Earthdata Pub [Overview](https://pub.earthdata.nasa.gov/) and [Forms](https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1) applications used by all 12 NASA DAACs and all Data Producers. Official NASA “Inventor” of Earthdata Pub (NASA Case No. GSC-18, 612-1).
   - Architecture, development, cloud migration, adoption across NASA DAACs, APIs, dashboard modernization, design decisions, authentication, and technical leadership.
 - Automated publishing workflows from hours of manual work to a single button click, virtually eliminating errors and improving costs (02/2018).
-- Contributed to ONC Stage 1 and Stage 2 Electronic Health Record Certification; one of three developers assigned.
+- Contributed to ONC Stage 1 and Stage 2 Electronic Health Record certification as one of three assigned developers.
 
 ## Technical Skills
 
@@ -36,7 +36,7 @@ Software architecture · Full-stack development · Enterprise applications · RE
 ### NASA / ORNL DAAC — Oak Ridge, TN
 
 **Systems Architect / Application Developer** | 04/2018–Present  
-**Technology:** Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, AWS Cloud, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VS Code
+**Developed in:** Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, AWS Cloud, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VS Code
 
 - Repurposed NASA’s Cumulus Dashboard as the [NASA Earthdata Pub Dashboard](https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1), powering [Overview](https://pub.earthdata.nasa.gov/) and [Forms](https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1) applications (Vue, React) for all 12 NASA DAACs and all data producers.
 - Co-developed the Earthdata Pub REST API powering multiple NASA applications.
@@ -52,7 +52,7 @@ Software architecture · Full-stack development · Enterprise applications · RE
 ### Cosby Harrison Company (Formerly TAP Publishing Company) — Crossville, TN
 
 **System Architect / Web Application Developer / Web Developer** | 10/2016–04/2018  
-**Technology:** Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle, Informix, Shell, C++
+**Developed in:** Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle, Informix, Shell, C++
 
 - Automated publishing workflows from hours of manual work to a single button click, virtually eliminating errors and improving costs.
 - Standardized data across multiple formats through automated import/export pipelines.
@@ -62,7 +62,7 @@ Software architecture · Full-stack development · Enterprise applications · RE
 ### Libera, Inc. — Knoxville, TN
 
 **Web Application Developer** | 10/2015–07/2016  
-**Technology:** VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
+**Developed in:** VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
 
 - Implemented statewide Vocational Rehabilitation program updates affecting all agencies.
 - Created custom queries and scripts enabling agency end users to access timely reporting data.
@@ -72,7 +72,7 @@ Software architecture · Full-stack development · Enterprise applications · RE
 ### RMB, Inc. — Knoxville, TN
 
 **FACS Application Programmer** | 03/2015–07/2015  
-**Technology:** FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports
+**Developed in:** FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports
 
 - Maintained database operations at peak performance, protecting secured information and ensuring data integrity.
 - Built daily jobs and import/export routines routing high-volume data in and out of production systems.
@@ -82,9 +82,10 @@ Software architecture · Full-stack development · Enterprise applications · RE
 ### QRS, Inc. — Knoxville, TN
 
 **EHR Developer / Software Developer** | 05/2009–02/2015  
-**Technology:** JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-tree
+**Developed in:** JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-tree
 
 - Indirectly led other EHR programmers on client-facing clinical software projects.
+- Contributed to ONC Stage 1 and Stage 2 Electronic Health Record certification as one of three assigned developers.
 - Designed Standard Form Sets / Notes tailored to doctor specialty.
 - Worked directly with doctors to determine practice needs and translate them into software solutions.
 - Provided Tier 2 product support, resolving escalated client issues.
