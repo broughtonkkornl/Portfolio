@@ -25,6 +25,8 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 - **Development Tools:** VS Code, DBVisualizer, Visual Studio, Swagger, SpectaQL, Sphinx, Vuese
 - **Content Management:** Drupal
 - **AI Development Tools:** Cline, DUO AI, GitHub Copilot
+- **Accessibility:** Accessibility-minded front-end development
+- **JavaScript Assessment:** LinkedIn Skill Assessment — Expert
 - **Operating Systems:** Linux, Microsoft Windows
 
 ## Core Competencies

@@ -34,7 +34,7 @@
   </style>
 </head>
 <body>
-  <div id="root" aria-live="polite">Loading portfolio…</div>
+  <div id="root">Loading portfolio…</div>
 
   <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
@@ -159,6 +159,10 @@
         );
       }
 
+      function SkipLink() {
+        return React.createElement('a', { className: 'skip-link', href: '#main-content' }, 'Skip to main content');
+      }
+
       function ImpactDashboard() {
         const h = React.createElement;
         const cards = [
@@ -252,17 +256,20 @@
       function PortfolioLayout(props) {
         const sections = props.sections;
         return React.createElement(React.Fragment, null,
+          React.createElement(SkipLink),
           React.createElement(ScrollProgress),
           React.createElement(Navigation, { markup: sections.navigation }),
-          React.createElement(Hero, { markup: sections.hero }),
-          React.createElement(ImpactDashboard),
-          React.createElement(About, { markup: sections.about }),
-          React.createElement(Achievements, { markup: sections.achievements }),
-          React.createElement(Skills, { markup: sections.skills }),
-          React.createElement(Competencies, { markup: sections.competencies }),
-          React.createElement(WorkExplorer),
-          React.createElement(Experience, { markup: sections.experience }),
-          React.createElement(Education, { markup: sections.education }),
+          React.createElement('main', { id: 'main-content' },
+            React.createElement(Hero, { markup: sections.hero }),
+            React.createElement(ImpactDashboard),
+            React.createElement(About, { markup: sections.about }),
+            React.createElement(Achievements, { markup: sections.achievements }),
+            React.createElement(Skills, { markup: sections.skills }),
+            React.createElement(Competencies, { markup: sections.competencies }),
+            React.createElement(WorkExplorer),
+            React.createElement(Experience, { markup: sections.experience }),
+            React.createElement(Education, { markup: sections.education })
+          ),
           React.createElement(Footer)
         );
       }

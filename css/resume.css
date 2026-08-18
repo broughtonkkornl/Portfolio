@@ -11,6 +11,8 @@ body {
 }
 a { color: var(--accent); text-decoration: none; }
 
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
 /* Print toolbar (screen only) */
 .print-toolbar {
   position: sticky; top: 0; z-index: 100;
