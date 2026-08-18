@@ -3,7 +3,7 @@
     <summary>
       <h1 style="padding: 0; display: inline-block;"><b>KIMBERLY K. BROUGHTON</b></h1>
     </summary>
-    <font size="normal"><p align="center">Oliver Springs, TN 37840 • (865) 742-9443 • <a href="mailto:kimberly.broughton@gmail.com">kimberly.broughton@gmail.com</a> • <a href="https://www.linkedin.com/in/kim-broughton">LinkedIn</a> • <a href="https://github.com/broughtonkkornl/Portfolio">Github</a> • <a href="https://broughtonkkornl.github.io/Portfolio/">Portfolio</a></p></font>
+    <font size="normal"><p align="center">Oliver Springs, TN 37840 • (865) 742-9443 • <a href="mailto:kimberly.broughton@gmail.com">kimberly.broughton@gmail.com</a> • <a href="https://www.linkedin.com/in/kim-broughton">LinkedIn</a> • <a href="https://github.com/broughtonkkornl/Portfolio">GitHub</a> • <a href="https://broughtonkkornl.github.io/Portfolio/">Portfolio</a></p></font>
   </ul>
 </div>
 Software Engineer with over 17 years of experience designing, developing, and modernizing enterprise software solutions. Proven expertise in Python, JavaScript, automation, APIs, and database design across scientific research, healthcare, publishing, and government environments. Recognized NASA Inventor with a history of delivering scalable applications, reducing technical debt, automating complex workflows, and collaborating directly with stakeholders to transform business requirements into reliable software solutions.
@@ -16,7 +16,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 </div>
 
-**Sole architect and lead developer of NASA Earthdata Pub Overview and Forms applications used by all 12 NASA DAACs for all Data Producers. Official NASA "Inventor" of Earthdata Pub (NASA Case No. GSC-18, 612-1).**
+**Sole architect and lead developer of NASA Earthdata Pub Overview and Forms applications used by all 12 NASA DAACs and all Data Producers. Official NASA "Inventor" of Earthdata Pub (NASA Case No. GSC-18, 612-1).**
 
 <table align="center" width="100%" style="margin: 0 auto; max-width: 960px; margin-bottom: 1em;">
   <tr>
@@ -100,13 +100,13 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 </div>
 
-**NASA / ORNL DAAC** – Oak Ridge, TN – **(04/18 – 08/26)**  
+**NASA / ORNL DAAC** – Oak Ridge, TN – **(04/18 – Present)**  
 *Systems Architect / Application Developer*  
-Developed in: Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, AWS Cloud, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VSCode
+Developed in: Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, AWS Cloud, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VS Code
 
-- Repurposed NASA's Cumulus Dashboard into the <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">NASA’s Earthdata Pub Dashboard</a> powering my <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications (Vue, React) serving all 12 NASA DAACs and hundreds of data producers
+- Repurposed NASA's Cumulus Dashboard into the <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">NASA’s Earthdata Pub Dashboard</a> powering my <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications (Vue, React) serving all 12 NASA DAACs and all data producers
 - Co-developed the Earthdata Pub REST API powering multiple NASA applications
-- Assisted in refactoring and expansion of River Function Indicator Questionnaire (RFIQ) to a generalized <a href="https://hydroeds.ornl.gov/">Environmental Decision Support Toolkit</a>
+- Assisted in refactoring and expanding River Function Indicator Questionnaire (RFIQ) to a generalized <a href="https://hydroeds.ornl.gov/">Environmental Decision Support Toolkit</a>
 - Designed and implemented MyWorkSpace, a modular data order application expanding user download options
 - Was 1 of 3 developers who delivered an Ingest Dashboard for ORNL DAAC ingest operations (MVP live), architected to interface with Earthdata Pub for QA and full automation
 - Designed automation scripts that reduced manual processing time by 80%
@@ -129,7 +129,7 @@ Developed in: Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle,
 
 **LIBERA, INC.** – Knoxville, TN – **(10/15 – 07/16)**  
 *Web Application Developer*  
-Developed in: VB.NET/ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
+Developed in: VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
 
 - Implemented Vocational Rehabilitation program updates affecting all agencies statewide
 - Created custom queries and scripts enabling agency end users to access timely reporting data
@@ -149,7 +149,7 @@ Developed in: FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports
 
 **QRS, INC.** – Knoxville, TN – **(05/09 – 02/15)**  
 *EHR Developer / Software Developer*  
-Developed in: Javascript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-tree
+Developed in: JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-tree
 
 - Indirectly led other EHR programmers on client-facing clinical software projects
 - Designed Standard Form Sets / Notes tailored to doctor specialty
@@ -167,7 +167,7 @@ Developed in: Javascript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-t
 
 </div>
 
-**UI / UX Certification** – NN/g Norman Group – **(12/20)**
+**UI / UX Certification** – NN/g Nielsen Norman Group – **(12/20)**
 
 **C# CERTIFICATION** – Knoxville, TN – **(12/17)**
 
