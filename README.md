@@ -16,7 +16,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 </div>
 
-**Sole architect and lead developer of NASA Earthdata Pub Overview and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications used by all 12 NASA DAACs and all Data Producers. Official NASA "Inventor" of Earthdata Pub (NASA Case No. GSC-18, 612-1).**
+**Sole architect and lead developer of NASA Earthdata Pub <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications used by all 12 NASA DAACs and all Data Producers. Official NASA "Inventor" of Earthdata Pub (NASA Case No. GSC-18, 612-1).**
 
 <table align="center" width="100%" style="margin: 0 auto; max-width: 960px; margin-bottom: 1em;">
   <tr>

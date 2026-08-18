@@ -5,11 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kimberly K. Broughton — React Portfolio</title>
   <meta name="description" content="React-powered portfolio of Kimberly K. Broughton, Systems Architect and NASA Inventor." />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=20260818" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>" />
+  <style>
+    .react-scroll-progress { position: fixed; inset: 0 auto auto 0; z-index: 2000; width: 100%; height: 3px; background: transparent; pointer-events: none; }
+    .react-scroll-progress > span { display: block; height: 100%; width: 100%; transform-origin: left; background: linear-gradient(90deg, #37d5a4, #4f8cff); box-shadow: 0 0 14px rgba(55, 213, 164, 0.8); }
+    .react-impact { position: relative; z-index: 2; margin: -3.25rem auto 0; max-width: 1100px; padding: 0 2rem; }
+    .react-impact-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; overflow: hidden; border: 1px solid rgba(127, 176, 255, 0.28); border-radius: 18px; background: rgba(127, 176, 255, 0.18); box-shadow: 0 18px 50px rgba(0,0,0,0.25); }
+    .react-impact-card { min-height: 132px; padding: 1.4rem 1.6rem; background: linear-gradient(145deg, rgba(20, 27, 46, 0.98), rgba(15, 21, 37, 0.98)); }
+    .react-impact-label { color: #9aa6bd; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.11em; text-transform: uppercase; }
+    .react-impact-value { display: block; margin: 0.35rem 0; color: #fff; font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.55rem, 3vw, 2.2rem); font-weight: 700; }
+    .react-impact-detail { color: #c4cce0; font-size: 0.84rem; line-height: 1.45; }
+    .react-explorer { margin-top: 1.25rem; border: 1px solid rgba(127, 176, 255, 0.2); border-radius: 18px; overflow: hidden; background: linear-gradient(135deg, rgba(20,27,46,0.96), rgba(10,14,26,0.96)); box-shadow: var(--shadow); }
+    .react-explorer-head { padding: 1.75rem 1.75rem 0; }
+    .react-explorer-kicker { color: #37d5a4; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+    .react-explorer-title { margin-top: 0.35rem; color: #fff; font-family: 'Space Grotesk', sans-serif; font-size: clamp(1.3rem, 3vw, 1.8rem); }
+    .react-explorer-tabs { display: flex; gap: 0.55rem; flex-wrap: wrap; padding: 1.4rem 1.75rem; }
+    .react-explorer-tab { border: 1px solid rgba(127,176,255,0.25); border-radius: 999px; background: transparent; color: #c4cce0; cursor: pointer; font: inherit; font-size: 0.84rem; font-weight: 600; padding: 0.52rem 0.9rem; transition: all 0.2s ease; }
+    .react-explorer-tab:hover, .react-explorer-tab[aria-pressed='true'] { border-color: #37d5a4; background: rgba(55,213,164,0.1); color: #fff; }
+    .react-explorer-content { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(230px, .85fr); gap: 2rem; padding: 0 1.75rem 1.75rem; }
+    .react-explorer-copy { color: #c4cce0; line-height: 1.7; }
+    .react-explorer-proof { display: grid; align-content: start; gap: 0.7rem; }
+    .react-proof { padding: 0.75rem 0.9rem; border-left: 2px solid #37d5a4; background: rgba(255,255,255,0.035); color: #e8ecf4; font-size: 0.88rem; }
+    @media (max-width: 700px) { .react-impact { margin-top: -1.25rem; padding: 0 1rem; } .react-impact-grid { grid-template-columns: 1fr; } .react-impact-card { min-height: auto; } .react-explorer-content { grid-template-columns: 1fr; gap: 1rem; } }
+  </style>
 </head>
 <body>
   <div id="root" aria-live="polite">Loading portfolio…</div>
@@ -120,6 +142,86 @@
         );
       }
 
+      function ScrollProgress() {
+        const h = React.createElement;
+        const [progress, setProgress] = useState(0);
+        useEffect(function () {
+          const updateProgress = function () {
+            const maximum = document.documentElement.scrollHeight - window.innerHeight;
+            setProgress(maximum > 0 ? Math.min(window.scrollY / maximum, 1) : 0);
+          };
+          window.addEventListener('scroll', updateProgress, { passive: true });
+          updateProgress();
+          return function () { window.removeEventListener('scroll', updateProgress); };
+        }, []);
+        return h('div', { className: 'react-scroll-progress', 'aria-hidden': 'true' },
+          h('span', { style: { transform: 'scaleX(' + progress + ')' } })
+        );
+      }
+
+      function ImpactDashboard() {
+        const h = React.createElement;
+        const cards = [
+          ['Recognition', 'NASA Inventor', 'Earthdata Pub — NASA Case No. GSC-18,612-1.'],
+          ['Reach', '12 NASA DAACs', 'Earthdata Pub applications used by all DAACs and data producers.'],
+          ['Delivery', 'MVP live', 'Ingest Dashboard delivered for ORNL DAAC ingest operations.']
+        ];
+        return h('section', { className: 'react-impact', 'aria-label': 'Career impact highlights' },
+          h('div', { className: 'react-impact-grid' }, cards.map(function (card) {
+            return h('article', { className: 'react-impact-card', key: card[0] },
+              h('span', { className: 'react-impact-label' }, card[0]),
+              h('strong', { className: 'react-impact-value' }, card[1]),
+              h('p', { className: 'react-impact-detail' }, card[2])
+            );
+          }))
+        );
+      }
+
+      function WorkExplorer() {
+        const h = React.createElement;
+        const views = {
+          architecture: {
+            label: 'Architecture',
+            title: 'Designing systems that can evolve',
+            copy: 'I translate stakeholder needs into maintainable application architecture, making deliberate design decisions across APIs, authentication, data, and user workflows.',
+            proof: ['NASA Earthdata Pub architect and lead developer', 'REST APIs supporting multiple applications', 'Modular MyWorkSpace data-order application']
+          },
+          modernization: {
+            label: 'Modernization',
+            title: 'Improving systems without losing their value',
+            copy: 'I modernize established applications with practical changes that improve maintainability, testing, deployment confidence, and future platform growth.',
+            proof: ['Perl-to-Python modernization', 'Automated unit and end-to-end testing', 'NASA cloud-hosted Earthdata migration support']
+          },
+          automation: {
+            label: 'Automation',
+            title: 'Turning repetitive work into reliable workflows',
+            copy: 'I look for manual friction, then build scripts, pipelines, and integrations that make teams faster while protecting data quality.',
+            proof: ['80% reduction in manual processing time', 'Publishing workflows reduced to one click', 'Metadata import/export pipelines across standards']
+          }
+        };
+        const [active, setActive] = useState('architecture');
+        const view = views[active];
+        return h('section', { className: 'section section-alt', 'aria-label': 'How I work' },
+          h('div', { className: 'container' },
+            h('div', { className: 'react-explorer' },
+              h('div', { className: 'react-explorer-head' },
+                h('p', { className: 'react-explorer-kicker' }, 'Interactive overview'),
+                h('h2', { className: 'react-explorer-title' }, 'How I create software impact')
+              ),
+              h('div', { className: 'react-explorer-tabs', role: 'group', 'aria-label': 'Select an area of focus' },
+                Object.keys(views).map(function (key) {
+                  return h('button', { key: key, className: 'react-explorer-tab', type: 'button', onClick: function () { setActive(key); }, 'aria-pressed': active === key }, views[key].label);
+                })
+              ),
+              h('div', { className: 'react-explorer-content' },
+                h('div', null, h('h3', null, view.title), h('p', { className: 'react-explorer-copy' }, view.copy)),
+                h('div', { className: 'react-explorer-proof' }, view.proof.map(function (item) { return h('div', { className: 'react-proof', key: item }, item); }))
+              )
+            )
+          )
+        );
+      }
+
       function Footer() {
         const h = React.createElement;
         const external = { target: '_blank', rel: 'noopener noreferrer' };
@@ -128,9 +230,9 @@
             h('h2', { className: 'footer-title' }, "Let's Connect"),
             h('p', { className: 'footer-sub' }, 'Open to opportunities in software architecture, full-stack development, and automation.'),
             h('div', { className: 'footer-links' },
-              h('a', { href: 'mailto:kimberly.broughton@gmail.com', className: 'btn btn-primary' }, '✉️ Email Me'),
-              h('a', { href: 'kkb_08052026.pdf', className: 'btn btn-outline', download: true }, '📄 Download Résumé'),
-              h('a', { href: 'resume.html', className: 'btn btn-outline', ...external }, '🖨️ Printable Version')
+              h('a', { href: 'mailto:kimberly.broughton@gmail.com', className: 'btn btn-nav-cta' }, '✉️ Email Me'),
+              h('a', { href: 'kkb_08052026.pdf', className: 'btn btn-nav-cta', download: true }, '📄 Download Résumé'),
+              h('a', { href: 'resume.html', className: 'btn btn-nav-cta', ...external }, '🖨️ Printable Version')
             ),
             h('div', { className: 'footer-profile-links' },
               h('a', { href: 'https://github.com/broughtonkkornl/Portfolio', ...external }, h(GitHubIcon), ' GitHub'),
@@ -150,12 +252,15 @@
       function PortfolioLayout(props) {
         const sections = props.sections;
         return React.createElement(React.Fragment, null,
+          React.createElement(ScrollProgress),
           React.createElement(Navigation, { markup: sections.navigation }),
           React.createElement(Hero, { markup: sections.hero }),
+          React.createElement(ImpactDashboard),
           React.createElement(About, { markup: sections.about }),
           React.createElement(Achievements, { markup: sections.achievements }),
           React.createElement(Skills, { markup: sections.skills }),
           React.createElement(Competencies, { markup: sections.competencies }),
+          React.createElement(WorkExplorer),
           React.createElement(Experience, { markup: sections.experience }),
           React.createElement(Education, { markup: sections.education }),
           React.createElement(Footer)
