@@ -14,7 +14,7 @@ I begin with requirements, users, data flows, operational constraints, and the c
 
 ## 4. How do you improve reliability?
 
-I combine design clarity with feedback loops: clear interfaces, automated unit and end-to-end tests, CI/CD practices, and attention to recurring operational work. I have implemented automated testing to improve deployment confidence and reduce regressions, and I have automated processing workflows that reduced manual work by 80%.
+I combine design clarity with feedback loops: clear interfaces, automated unit and end-to-end tests, CI/CD practices, and attention to recurring operational work. I have implemented automated testing to improve deployment confidence and reduce regressions, and I have automated processing workflows, reducing manual processing time by 80%.
 
 ## 5. How do you work with stakeholders who are not engineers?
 

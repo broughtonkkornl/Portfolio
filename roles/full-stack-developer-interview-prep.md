@@ -18,7 +18,7 @@ I look for the smallest useful change that improves the user outcome and leaves 
 
 ## 5. Give an example of an outcome you improved.
 
-At ORNL DAAC, I automated processing workflows that reduced manual time by 80%. I have also built publishing automation that moved hours of manual work to a single-button process. I measure improvement in time, error reduction, maintainability, and whether the people doing the work are better supported.
+At ORNL DAAC, I automated processing workflows, reducing manual processing time by 80%. I have also built publishing automation that moved hours of manual work to a single-button process. I measure improvement in time, error reduction, maintainability, and whether the people doing the work are better supported.
 
 ## Questions to ask the interviewer
 

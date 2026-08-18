@@ -40,7 +40,7 @@ Software architecture · Full-stack development · Enterprise applications · RE
 **Systems Architect / Application Developer** | 04/2018–Present  
 **Developed in:** Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, AWS Cloud, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VS Code
 
-- Repurposed NASA’s Cumulus Dashboard as the [NASA Earthdata Pub Dashboard](https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1), powering [Overview](https://pub.earthdata.nasa.gov/) and [Forms](https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1) applications (Vue, React) for all 12 NASA DAACs and all data producers.
+- Repurposed NASA's Cumulus Dashboard as the [NASA Earthdata Pub Dashboard](https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1), powering [Overview](https://pub.earthdata.nasa.gov/) and [Forms](https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1) applications (Vue, React) for all 12 NASA DAACs and all Data Producers.
 - Co-developed the Earthdata Pub REST API powering multiple NASA applications.
 - Assisted in refactoring and expanding the River Function Indicator Questionnaire (RFIQ) to a generalized [Environmental Decision Support Toolkit](https://hydroeds.ornl.gov/).
 - Designed and implemented MyWorkSpace, a modular data-order application expanding user download options.

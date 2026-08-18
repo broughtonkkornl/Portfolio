@@ -14,4 +14,4 @@ Thank you for your consideration. I look forward to discussing the technical lea
 
 Sincerely,  
 Kimberly K. Broughton  
-Oliver Springs, TN · (865) 742-9443 · kimberly.broughton@gmail.com
+Oliver Springs, TN 37840 · (865) 742-9443 · kimberly.broughton@gmail.com
