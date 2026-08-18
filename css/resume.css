@@ -72,6 +72,7 @@ a { color: var(--accent); text-decoration: none; }
 .resume-achievement-list li {
   font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.35rem;
   padding-left: 1.1rem; position: relative;
+  display: flex; align-items: baseline; gap: 0.5rem;
 }
 .resume-achievement-list li::before {
   content: '\2022'; position: absolute; left: 0.25rem;
@@ -80,6 +81,9 @@ a { color: var(--accent); text-decoration: none; }
 .resume-date {
   float: right; font-size: 0.78rem;
   color: var(--light-gray); font-style: italic;
+}
+.resume-achievement-list .resume-date {
+  float: none; margin-left: auto; flex: 0 0 auto;
 }
 
 /* Skills */

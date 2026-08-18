@@ -16,7 +16,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 </div>
 
-**Sole architect and lead developer of NASA Earthdata Pub Overview and Forms applications used by all 12 NASA DAACs and all Data Producers. Official NASA "Inventor" of Earthdata Pub (NASA Case No. GSC-18, 612-1).**
+**Sole architect and lead developer of NASA Earthdata Pub Overview and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications used by all 12 NASA DAACs and all Data Producers. Official NASA "Inventor" of Earthdata Pub (NASA Case No. GSC-18, 612-1).**
 
 <table align="center" width="100%" style="margin: 0 auto; max-width: 960px; margin-bottom: 1em;">
   <tr>
@@ -38,9 +38,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
   </tr>
 </table>
 
-**Designed and implemented administrative software system to replace data processing department (02/2018)**
-
-**UI / UX Certified in User Experience – NN/g Nielsen Norman Group (12/2020)**
+**Automated publishing workflows from hours of manual work to a single button click, virtually eliminating errors and improving costs (02/2018)**
 
 **Contributed to ONC Stage 1 and Stage 2 Electronic Health Record Certification: Electronic Health Record Software Certification - 1 of 3 developers assigned**
 
@@ -52,14 +50,14 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 </div>
 
-**Languages:** Python, JavaScript, SQL, GraphQL, SQLAlchemy, C#, C++, Java, Perl, PHP, HTML5, CSS3, XML, Shell, AWK, Visual Basic, VB.NET  
-**Frameworks:** Flask, Vue.js, React, Angular, Bootstrap, jQuery, Mustache, Jinja2, Cypress, Webapp2  
+**Languages:** Python, JavaScript, SQL, GraphQL, C#, C++, Java, HTML5, CSS3, XML, Shell, AWK  
+**Frameworks:** Flask, Vue.js, React, SQLAlchemy, Angular, Bootstrap, jQuery, Jinja2, Cypress  
 **Cloud & DevOps:** AWS Cloud, Docker, Kubernetes, Git, GitLab, GitLab CI/CD Pipelines, GitLab Runners, YAML, Automation Scripting  
-**Databases:** PostgreSQL, Oracle, Microsoft SQL Server, MySQL, Informix, Cache, c-tree, Microsoft Access  
-**Development Tools:** VS Code, DBVisualizer, Oracle Forms & Reports, Crystal Reports, Jasper Reports, Visual Studio, Swagger, SpectaQL, Sphinx, Vuese  
-**Content Management:** Drupal, Joomla, WordPress  
+**Databases:** PostgreSQL, Oracle, Microsoft SQL Server, MySQL, Informix  
+**Development Tools:** VS Code, DBVisualizer, Visual Studio, Swagger, SpectaQL, Sphinx, Vuese  
+**Content Management:** Drupal  
 **AI Development Tools:** Cline, DUO AI, GitHub Copilot  
-**Operating Systems:** Linux, Microsoft Windows
+**Operating Systems:** Linux, Microsoft Windows  
 
 ---
 
@@ -104,15 +102,15 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 *Systems Architect / Application Developer*  
 Developed in: Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, AWS Cloud, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VS Code
 
-- Repurposed NASA's Cumulus Dashboard into the <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">NASA’s Earthdata Pub Dashboard</a> powering my <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications (Vue, React) serving all 12 NASA DAACs and all data producers
+- Repurposed NASA's Cumulus Dashboard as the <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">NASA’s Earthdata Pub Dashboard</a>, powering <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications (Vue, React) for all 12 NASA DAACs and all data producers
 - Co-developed the Earthdata Pub REST API powering multiple NASA applications
 - Assisted in refactoring and expanding River Function Indicator Questionnaire (RFIQ) to a generalized <a href="https://hydroeds.ornl.gov/">Environmental Decision Support Toolkit</a>
 - Designed and implemented MyWorkSpace, a modular data order application expanding user download options
-- Was 1 of 3 developers who delivered an Ingest Dashboard for ORNL DAAC ingest operations (MVP live), architected to interface with Earthdata Pub for QA and full automation
-- Designed automation scripts that reduced manual processing time by 80%
-- Refactored sites and scripts from Perl to Python using an efficient templating system
-- Implemented automated unit and end-to-end testing, improving deployment confidence and reducing regression defects
-- Implemented metadata import/export pipelines supporting multiple formats and standards
+- Delivered an Ingest Dashboard with a three-developer team for ORNL DAAC ingest operations (MVP live), architected to interface with Earthdata Pub for QA and full automation
+- Automated processing workflows, reducing manual processing time by 80%
+- Modernized sites and scripts from Perl to Python with an efficient templating system
+- Implemented automated unit and end-to-end testing to improve deployment confidence and reduce regression defects
+- Built metadata import/export pipelines supporting multiple formats and standards
 - Modernized and maintained the ORNL DAAC web platform while supporting migration to NASA's cloud-hosted Earthdata environment, improving maintainability and supporting future platform growth
 <h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
 
@@ -120,9 +118,8 @@ Developed in: Python, JavaScript (above frameworks and DevOps), SQLAlchemy, Grap
 *System Architect / Web Application Developer / Web Developer*  
 Developed in: Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle, Informix, Shell, C++
 
-- Designed and implemented administrative software system to replace the entire data processing department
-- Automated publishing workflows, reducing hours of manual work to a single button click while virtually eliminating errors and improving company costs
-- Standardized data across multiple formats via automated import/export pipelines
+- Automated publishing workflows from hours of manual work to a single button click, virtually eliminating errors and improving costs
+- Standardized data across multiple formats through automated import/export pipelines
 - Automated tasks via scripts across multiple environments and languages
 - Maintained and enhanced custom, publication, and company web platforms with feature and framework improvements
 <h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
@@ -131,7 +128,7 @@ Developed in: Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle,
 *Web Application Developer*  
 Developed in: VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
 
-- Implemented Vocational Rehabilitation program updates affecting all agencies statewide
+- Implemented statewide Vocational Rehabilitation program updates affecting all agencies
 - Created custom queries and scripts enabling agency end users to access timely reporting data
 - Performed unit testing for statewide Vocational Rehabilitation program updates supporting developers across the state
 - Wrote operating instructions and reference documentation for end users
