@@ -16,7 +16,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 </div>
 
-**Sole architect and lead developer of NASA Earthdata Pub <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications used by all 12 NASA DAACs and all Data Producers. Official NASA “Inventor” of Earthdata Pub (NASA Case No. GSC-18, 612-1).**
+**Sole architect and lead developer of NASA Earthdata Pub <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications used by all 12 NASA DAACs and all Data Producers. Official NASA “Inventor” of Earthdata Pub (NASA Case No. GSC-18,612-1).**
 
 <table align="center" width="100%" style="margin: 0 auto; max-width: 960px; margin-bottom: 1em;">
   <tr>
@@ -57,8 +57,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 **Development Tools:** VS Code, DBVisualizer, Visual Studio, Swagger, SpectaQL, Sphinx, Vuese  
 **Content Management:** Drupal  
 **AI Development Tools:** Cline, DUO AI, GitHub Copilot  
-**Accessibility:** Accessibility-minded front-end development<br>
-**JavaScript Assessment:** LinkedIn Skill Assessment — Expert<br>
+**Accessibility:** Accessibility-minded front-end development
 **Operating Systems:** Linux, Microsoft Windows  
 
 ---
@@ -130,7 +129,7 @@ Developed in: Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle,
 *Web Application Developer*  
 Developed in: VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
 
-- Implemented statewide Vocational Rehabilitation program updates affecting all agencies
+- Implemented Vocational Rehabilitation program updates affecting all 78 federally funded state agencies
 - Created custom queries and scripts enabling agency end users to access timely reporting data
 - Performed unit testing for statewide Vocational Rehabilitation program updates supporting developers across the state
 - Wrote operating instructions and reference documentation for end users
@@ -163,17 +162,29 @@ Developed in: JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-t
 
 <div align="center">
 
-<h3><ins>EDUCATION</ins></h3>
+<h3><ins>CERTIFICATIONS &amp; ASSESSMENTS</ins></h3>
 
 </div>
 
 **UI / UX Certification** – NN/g Nielsen Norman Group – **(12/20)**
 
-**C# CERTIFICATION** – Knoxville, TN – **(12/17)**
+**C# Certification** – Knoxville, TN – **(12/17)**
 
-**PELLISSIPPI TECHNICAL COMMUNITY COLLEGE** – Knoxville, TN – **(05/07 – 05/09)**  
-*A.A.S. Computer Programming*  
-*A.A.S. Database Design and Development*
+**JavaScript Assessment** – [SHL](http://service.shl.com/) – Expert (4.51/5.00) – **(08/15)**
 
-- GPA at 3.60
-- Dean's List for Fall 2008, Spring 2007
+<ul><li>Session ID: 818485129153777500</li></ul>
+
+<div align="center">
+
+<h3><ins>EDUCATION</ins></h3>
+
+</div>
+
+**PELLISSIPPI TECHNICAL COMMUNITY COLLEGE** – Knoxville, TN – **(05/07 – 05/09)**
+
+<ul>
+  <li><em>A.A.S. Computer Programming</em></li>
+  <li><em>A.A.S. Database Design and Development</em></li>
+  <li>GPA: 3.60</li>
+  <li>Dean’s List for Fall 2008 and Spring 2007</li>
+</ul>

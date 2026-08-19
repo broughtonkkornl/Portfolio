@@ -660,11 +660,8 @@ ul {
 .achievement-date {
   display: inline-block;
   font-size: 0.8rem;
-  font-weight: 500;
-  color: var(--accent);
-  background: rgba(55, 213, 164, 0.1);
-  padding: 0.2rem 0.7rem;
-  border-radius: 50px;
+  font-weight: 400;
+  color: #6b7280;
 }
 
 /* ============ SKILLS ============ */
@@ -706,6 +703,12 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.ownership-label {
+  margin: 0.8rem 0 0.25rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
 }
 
 .skill-tags li {
@@ -827,13 +830,10 @@ ul {
 }
 
 .timeline-date {
-  background: rgba(55, 213, 164, 0.1);
-  border: 1px solid rgba(55, 213, 164, 0.2);
-  color: var(--accent);
+  color: #6b7280;
   font-size: 0.85rem;
-  font-weight: 600;
-  padding: 0.35rem 1rem;
-  border-radius: 50px;
+  font-weight: 400;
+  padding: 0;
   white-space: nowrap;
 }
 
@@ -874,7 +874,7 @@ ul {
   content: '▸';
   position: absolute;
   left: 0;
-  color: var(--accent);
+  color: #37d5a4;
   font-weight: 700;
 }
 
@@ -889,6 +889,17 @@ ul {
   gap: 1.5rem;
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.edu-section-title {
+  font-family: var(--font-display);
+  color: var(--white);
+  font-size: 1.35rem;
+  margin: 2.5rem 0 1rem;
+}
+
+.edu-section-title-first {
+  margin-top: 0;
 }
 
 .edu-card {
@@ -928,6 +939,18 @@ ul {
 .edu-meta {
   color: var(--primary-light) !important;
   font-weight: 500;
+}
+
+.edu-detail-bullets {
+  margin: 0 0 0.6rem;
+  padding-left: 1.2rem;
+  color: var(--primary-light);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.edu-detail-bullets li + li {
+  margin-top: 0.25rem;
 }
 
 /* ============ FOOTER ============ */
