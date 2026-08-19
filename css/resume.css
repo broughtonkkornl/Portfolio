@@ -66,26 +66,33 @@ a { color: var(--accent); text-decoration: none; }
   color: var(--accent); border-bottom: 2px solid var(--accent);
   padding-bottom: 0.25rem; margin-bottom: 0.6rem;
 }
+.resume-group-divider {
+  border: 0; height: 1px; background: #d9dde5;
+  margin: 0.8rem 0;
+}
+.resume-subsection-title {
+  font-size: 0.82rem; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--ink); margin: 0.75rem 0 0.35rem;
+}
 
 /* Achievements */
 .resume-achievement-main { font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.35rem; }
 .resume-achievement-tags { font-size: 0.8rem; color: var(--light-gray); margin-bottom: 0.5rem; }
-.resume-achievement-list { list-style: none; }
+.resume-achievement-list { list-style: none; margin: 0.35rem 0 0; }
 .resume-achievement-list li {
   font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.35rem;
-  padding-left: 1.1rem; position: relative;
-  display: flex; align-items: baseline; gap: 0.5rem;
+  padding-left: 0;
 }
 .resume-achievement-list li::before {
-  content: '\2022'; position: absolute; left: 0.25rem;
-  color: var(--accent); font-weight: 700;
+  content: none;
 }
 .resume-date {
   float: right; font-size: 0.78rem;
-  color: var(--light-gray); font-style: italic;
+  color: #6b7280; font-style: italic;
 }
 .resume-achievement-list .resume-date {
-  float: none; margin-left: auto; flex: 0 0 auto;
+  float: right;
 }
 
 /* Skills */
@@ -100,7 +107,7 @@ a { color: var(--accent); text-decoration: none; }
 .resume-job-location { font-size: 0.75rem; color: var(--light-gray); }
 .resume-job-date {
   margin-left: auto; font-size: 0.78rem;
-  font-weight: 600; color: var(--accent); white-space: nowrap;
+  color: #6b7280; white-space: nowrap;
 }
 .resume-job-title {
   font-size: 0.82rem; font-style: italic; font-weight: 600;
@@ -108,7 +115,7 @@ a { color: var(--accent); text-decoration: none; }
 }
 .resume-job-stack { font-size: 0.75rem; color: var(--light-gray); margin-bottom: 0.35rem; }
 .resume-job-stack strong { color: var(--gray); }
-.resume-job-bullets { list-style: none; }
+.resume-job-bullets { list-style: none; margin: 0.35rem 0 0; }
 .resume-job-bullets li {
   font-size: 0.8rem; line-height: 1.45; margin-bottom: 0.25rem;
   padding-left: 1.1rem; position: relative; color: var(--gray);
@@ -124,6 +131,7 @@ a { color: var(--accent); text-decoration: none; }
 .resume-edu-main strong { color: var(--ink); }
 .resume-edu-sub { font-size: 0.8rem; color: var(--gray); padding-left: 1.1rem; }
 .resume-edu-bullets { margin: 0.15rem 0 0 1.1rem; }
+.resume-assessment-bullets { margin-top: 0.45rem; }
 .resume-date-inline { float: right; margin-left: 1rem; }
 
 /* Footer */
@@ -136,18 +144,42 @@ a { color: var(--accent); text-decoration: none; }
 .print-footer a { color: var(--accent); font-weight: 600; }
 
 /* Print rules */
-@page { size: Letter; margin: 0.75in; }
+@page { size: Letter; margin: 0.45in 0.55in; }
 @media print {
-  body { background: var(--paper); font-size: 10.5pt; line-height: 1.4; }
+  body { background: var(--paper); font-size: 8.5pt; line-height: 1.2; }
   .no-print { display: none !important; }
   .resume {
     max-width: none; margin: 0; padding: 0;
     box-shadow: none; border-radius: 0;
   }
-  .resume-header { page-break-after: avoid; }
-  .resume-section { page-break-inside: auto; }
-  .resume-section-title { page-break-after: avoid; }
-  .resume-job { page-break-inside: avoid; }
+  .resume-header { margin-bottom: 0.55rem; padding-bottom: 0.45rem; page-break-after: avoid; }
+  .resume-name { font-size: 16pt; margin-bottom: 0.2rem; }
+  .resume-contact { font-size: 0.7rem; margin-bottom: 0.35rem; }
+  .resume-summary { font-size: 0.72rem; line-height: 1.25; }
+  .resume-section { margin-bottom: 0.55rem; page-break-inside: auto; }
+  .resume-group-divider { margin: 0.35rem 0; }
+  .resume-section-title { font-size: 0.85rem; margin-bottom: 0.35rem; padding-bottom: 0.15rem; page-break-after: avoid; }
+  .resume-subsection-title { font-size: 0.75rem; margin: 0.45rem 0 0.2rem; }
+  .resume-achievement-main, .resume-achievement-list li { font-size: 0.7rem; line-height: 1.25; }
+  .resume-achievement-main { margin-bottom: 0.2rem; }
+  .resume-achievement-tags { font-size: 0.68rem; margin-bottom: 0.25rem; }
+  .resume-achievement-list { margin-top: 0.2rem; }
+  .resume-achievement-list li { margin-bottom: 0.15rem; padding-left: 0; }
+  .resume-achievement-list li::before { content: none; }
+  .resume-date { font-size: 0.7rem; }
+  .resume-skill-line { font-size: 0.68rem; line-height: 1.25; margin-bottom: 0.1rem; }
+  .resume-competencies { font-size: 0.68rem; line-height: 1.25; }
+  .resume-job { margin-bottom: 0.45rem; page-break-inside: avoid; }
+  .resume-job-company { font-size: 0.85rem; }
+  .resume-job-location, .resume-job-date { font-size: 0.68rem; }
+  .resume-job-title { font-size: 0.72rem; margin-bottom: 0.15rem; }
+  .resume-job-stack { font-size: 0.66rem; margin-bottom: 0.2rem; }
+  .resume-job-bullets { margin-top: 0.2rem; }
+  .resume-job-bullets li { font-size: 0.7rem; line-height: 1.22; margin-bottom: 0.1rem; }
+  .resume-edu-item { margin-bottom: 0.25rem; }
+  .resume-edu-main { font-size: 0.7rem; line-height: 1.25; }
+  .resume-edu-bullets { margin-top: 0.1rem; }
+  .resume-assessment-bullets { margin-top: 0.25rem; }
   a { color: var(--ink); text-decoration: none; }
 }
 
