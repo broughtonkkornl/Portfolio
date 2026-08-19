@@ -1,5 +1,5 @@
-<div align="center">
-  <h1>KIMBERLY K. BROUGHTON</h1>
+<div id="user-content-toc" align="center">
+  <h1 style="padding: 0; display: inline-block;"><b>KIMBERLY K. BROUGHTON</b></h1>
   <p>Oliver Springs, TN 37840 • (865) 742-9443 • <a href="mailto:kimberly.broughton@gmail.com">kimberly.broughton@gmail.com</a> • <a href="https://www.linkedin.com/in/kim-broughton">LinkedIn</a> • <a href="https://github.com/broughtonkkornl/Portfolio">GitHub</a> • <a href="https://broughtonkkornl.github.io/Portfolio/">Portfolio</a></p>
 </div>
 Software Engineer with over 17 years of experience designing, developing, and modernizing enterprise software solutions. Proven expertise in Python, JavaScript, automation, APIs, and database design across scientific research, healthcare, publishing, and government environments. Recognized NASA Inventor with a history of delivering scalable applications, reducing technical debt, automating complex workflows, and collaborating directly with stakeholders to transform business requirements into reliable software solutions.
