@@ -28,6 +28,21 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 - **Accessibility:** Accessibility-minded front-end development
 - **Operating Systems:** Linux, Microsoft Windows
 
+## Core Competencies
+
+- Software Architecture
+- Full Stack Development
+- Enterprise Applications
+- REST APIs
+- Database Design
+- Automation
+- System Integration
+- Technical Leadership
+- Application Modernization
+- Technical Documentation
+- User Experience
+- Agile Development
+
 ## Professional Experience
 
 ### NASA / ORNL DAAC — Oak Ridge, TN
@@ -106,8 +121,6 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 <ul class="assessment-details">
   <li>Session ID: 818485129153777500</li>
 </ul>
-
-<hr class="resume-group-divider">
 
 ## Education
 
