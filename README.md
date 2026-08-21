@@ -18,26 +18,6 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 **Sole architect and lead developer of NASA Earthdata Pub <a href="https://pub.earthdata.nasa.gov/">Overview</a> and <a href="https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1">Forms</a> applications used by all 12 NASA DAACs and all Data Producers. Official NASA “Inventor” of Earthdata Pub (NASA Case No. GSC-18,612-1).**
 
-<table align="center" width="100%" style="margin: 0 auto; max-width: 960px; margin-bottom: 1em;">
-  <tr>
-    <td valign="middle" width="300">
-      &nbsp;&nbsp;&nbsp;• Architecture<br>
-      &nbsp;&nbsp;&nbsp;• Development<br>
-      &nbsp;&nbsp;&nbsp;• Cloud migration
-    </td>
-    <td valign="middle" width="300">
-      &nbsp;&nbsp;&nbsp;• Adoption across NASA DAACs<br>
-      &nbsp;&nbsp;&nbsp;• APIs<br>
-      &nbsp;&nbsp;&nbsp;• Dashboard modernization
-    </td>
-    <td valign="middle" width="300">
-      &nbsp;&nbsp;&nbsp;• Design decisions<br>
-      &nbsp;&nbsp;&nbsp;• Authentication<br>
-      &nbsp;&nbsp;&nbsp;• Technical leadership
-    </td>
-  </tr>
-</table>
-
 **Automated publishing workflows from hours of manual work to a single button click, virtually eliminating errors and improving costs (02/2018)**
 
 **Contributed to ONC Stage 1 and Stage 2 Electronic Health Record certification as one of three assigned developers.**
@@ -74,7 +54,8 @@ Software Engineer with over 17 years of experience designing, developing, and mo
       &nbsp;&nbsp;&nbsp;• Software Architecture<br>
       &nbsp;&nbsp;&nbsp;• Full Stack Development<br>
       &nbsp;&nbsp;&nbsp;• Enterprise Applications<br>
-      &nbsp;&nbsp;&nbsp;• REST APIs
+      &nbsp;&nbsp;&nbsp;• REST APIs<br>
+      &nbsp;&nbsp;&nbsp;• Authentication
     </td>
     <td valign="middle" width="300">
       &nbsp;&nbsp;&nbsp;• Database Design<br>

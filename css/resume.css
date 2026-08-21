@@ -77,11 +77,10 @@ a { color: var(--accent); text-decoration: none; }
 }
 
 /* Achievements */
-.resume-achievement-main { font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.35rem; }
-.resume-achievement-tags { font-size: 0.8rem; color: var(--light-gray); margin-bottom: 0.5rem; }
-.resume-achievement-list { list-style: none; margin: 0.35rem 0 0; }
+.resume-achievement-main { font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.6rem; }
+.resume-achievement-list { list-style: none; margin: 0.15rem 0 0; }
 .resume-achievement-list li {
-  font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.35rem;
+  font-size: 0.82rem; line-height: 1.5; margin-bottom: 0.55rem;
   padding-left: 0;
 }
 .resume-achievement-list li::before {
@@ -164,10 +163,9 @@ a { color: var(--accent); text-decoration: none; }
   .resume-section-title { font-size: 0.85rem; margin-bottom: 0.35rem; padding-bottom: 0.15rem; page-break-after: avoid; }
   .resume-subsection-title { font-size: 0.75rem; margin: 0.45rem 0 0.2rem; }
   .resume-achievement-main, .resume-achievement-list li { font-size: 0.7rem; line-height: 1.25; }
-  .resume-achievement-main { margin-bottom: 0.2rem; }
-  .resume-achievement-tags { font-size: 0.68rem; margin-bottom: 0.25rem; }
+  .resume-achievement-main { margin-bottom: 0.3rem; }
   .resume-achievement-list { margin-top: 0.2rem; }
-  .resume-achievement-list li { margin-bottom: 0.15rem; padding-left: 0; }
+  .resume-achievement-list li { margin-bottom: 0.25rem; padding-left: 0; }
   .resume-achievement-list li::before { content: none; }
   .resume-date { font-size: 0.7rem; }
   .resume-skill-line { font-size: 0.68rem; line-height: 1.25; margin-bottom: 0.1rem; }

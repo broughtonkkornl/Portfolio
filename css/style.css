@@ -705,12 +705,6 @@ ul {
   gap: 0.5rem;
 }
 
-.ownership-label {
-  margin: 0.8rem 0 0.25rem;
-  color: var(--text-muted);
-  font-size: 0.85rem;
-}
-
 .skill-tags li {
   background: rgba(79, 140, 255, 0.09);
   border: 1px solid rgba(79, 140, 255, 0.15);
