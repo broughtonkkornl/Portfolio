@@ -80,7 +80,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 </div>
 
-**NASA / ORNL DAAC** – Oak Ridge, TN – **(04/18 – Present)**  
+**NASA / ORNL DAAC** – Oak Ridge, TN – **(04/2018 – Present)**<br>
 *Systems Architect / Application Developer*  
 Developed in: Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, AWS Cloud, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VS Code
 
@@ -96,7 +96,7 @@ Developed in: Python, JavaScript (above frameworks and DevOps), SQLAlchemy, Grap
 - Modernized and maintained the ORNL DAAC web platform while supporting migration to NASA's cloud-hosted Earthdata environment, improving maintainability and supporting future platform growth
 <h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
 
-**COSBY HARRISON COMPANY (Formerly TAP Publishing Company)** – Crossville, TN – **(10/16 – 04/18)**  
+**COSBY HARRISON COMPANY (Formerly TAP Publishing Company)** – Crossville, TN – **(10/2016 – 04/2018)**<br>
 *System Architect / Web Application Developer / Web Developer*  
 Developed in: Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle, Informix, Shell, C++
 
@@ -106,7 +106,7 @@ Developed in: Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle,
 - Maintained and enhanced custom, publication, and company web platforms with feature and framework improvements
 <h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
 
-**LIBERA, INC.** – Knoxville, TN – **(10/15 – 07/16)**  
+**LIBERA, INC.** – Knoxville, TN – **(10/2015 – 07/2016)**<br>
 *Web Application Developer*  
 Developed in: VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
 
@@ -116,7 +116,7 @@ Developed in: VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015
 - Wrote operating instructions and reference documentation for end users
 <h2 style="margin: var(--base-size-24) 0;border-bottom: 1px solid #d1d9e0"></h2><br>
 
-**RMB, INC.** – Knoxville, TN – **(03/15 – 07/15)**  
+**RMB, INC.** – Knoxville, TN – **(03/2015 – 07/2015)**<br>
 *FACS Application Programmer*  
 Developed in: FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports
 
@@ -126,7 +126,7 @@ Developed in: FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports
 - Wrote operating instructions and reference documentation for users
 <h2 style="margin: var(--base-size-24) 0; border-bottom: 1px solid #d1d9e0"></h2><br>
 
-**QRS, INC.** – Knoxville, TN – **(05/09 – 02/15)**  
+**QRS, INC.** – Knoxville, TN – **(05/2009 – 02/2015)**<br>
 *EHR Developer / Software Developer*  
 Developed in: JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-tree
 
@@ -147,11 +147,11 @@ Developed in: JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-t
 
 </div>
 
-**UI / UX Certification** – NN/g Nielsen Norman Group – **(12/20)**
+**UI / UX Certification** – NN/g Nielsen Norman Group – **(12/2020)**
 
-**C# Certification** – Knoxville, TN – **(12/17)**
+**C# Certification** – Knoxville, TN – **(12/2017)**
 
-**JavaScript Assessment** – [SHL](http://service.shl.com/) – Expert (4.51/5.00) – **(08/15)**
+**JavaScript Assessment** – [SHL](http://service.shl.com/) – Expert (4.51/5.00) – **(08/2015)**
 
 <ul><li>Session ID: 818485129153777500</li></ul>
 
@@ -161,7 +161,7 @@ Developed in: JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-t
 
 </div>
 
-**PELLISSIPPI TECHNICAL COMMUNITY COLLEGE** – Knoxville, TN – **(05/07 – 05/09)**
+**PELLISSIPPI TECHNICAL COMMUNITY COLLEGE** – Knoxville, TN – **(05/2007 – 05/2009)**
 
 <ul>
   <li><em>A.A.S. Computer Programming</em></li>
