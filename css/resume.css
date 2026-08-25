@@ -26,6 +26,7 @@ a { color: var(--accent); text-decoration: none; }
 }
 .toolbar-link { color: #fff; font-size: 0.9rem; font-weight: 600; }
 .toolbar-link:hover { text-decoration: underline; }
+.toolbar-print-note { color: #fff; font-size: 0.78rem; margin-left: auto; }
 .toolbar-btn {
   background: #fff; color: var(--accent);
   border: none; border-radius: 6px;

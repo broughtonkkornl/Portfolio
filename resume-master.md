@@ -47,7 +47,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 ### NASA / ORNL DAAC — Oak Ridge, TN
 
-<p class="role-line"><strong>Systems Architect / Application Developer</strong><span class="role-date">04/2018–Present</span></p>
+<p class="role-line"><strong>Systems Architect / Application Developer</strong><span class="role-date">04/2018 – Present</span></p>
 <p class="developed-line"><strong>Developed in:</strong> Python, JavaScript (above frameworks and DevOps), SQLAlchemy, GraphQL, AWS Cloud, Perl, HTML, CSS, SQL, Drupal, DBVisualizer, VS Code</p>
 
 - Repurposed NASA's Cumulus Dashboard as the [NASA Earthdata Pub Dashboard](https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1), powering [Overview](https://pub.earthdata.nasa.gov/) and [Forms](https://www.loom.com/share/45e124b4b3104e08b042582d9afc929d?sid=7eb3c62e-3c1b-4acc-8c6d-cb0840170fb1) applications (Vue, React) for all 12 NASA DAACs and all Data Producers.
@@ -59,13 +59,13 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 - Modernized sites and scripts from Perl to Python with an efficient templating system.
 - Implemented automated unit and end-to-end testing to improve deployment confidence and reduce regression defects.
 - Built metadata import/export pipelines supporting multiple formats and standards.
-- Modernized and maintained the ORNL DAAC web platform while supporting migration to NASA’s cloud-hosted Earthdata environment, improving maintainability and supporting future platform growth.
+- Modernized and maintained the ORNL DAAC web platform while supporting migration to NASA's cloud-hosted Earthdata environment, improving maintainability and supporting future platform growth.
 
 <hr class="resume-group-divider">
 
 ### Cosby Harrison Company (Formerly TAP Publishing Company) — Crossville, TN
 
-<p class="role-line"><strong>System Architect / Web Application Developer / Web Developer</strong><span class="role-date">10/2016–04/2018</span></p>
+<p class="role-line"><strong>System Architect / Web Application Developer / Web Developer</strong><span class="role-date">10/2016 – 04/2018</span></p>
 <p class="developed-line"><strong>Developed in:</strong> Python, JavaScript, Perl, DOS, AutoHotKey, HTML, CSS, SQL, Oracle, Informix, Shell, C++</p>
 
 - Automated publishing workflows from hours of manual work to a single button click, virtually eliminating errors and improving costs.
@@ -77,7 +77,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 ### Libera, Inc. — Knoxville, TN
 
-<p class="role-line"><strong>Web Application Developer</strong><span class="role-date">10/2015–07/2016</span></p>
+<p class="role-line"><strong>Web Application Developer</strong><span class="role-date">10/2015 – 07/2016</span></p>
 <p class="developed-line"><strong>Developed in:</strong> VB.NET / ASP.NET, XML, C#, TSQL, System7, SQL, Visual Studio 2015</p>
 
 - Implemented Vocational Rehabilitation program updates affecting all 78 federally funded state agencies.
@@ -89,7 +89,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 ### RMB, Inc. — Knoxville, TN
 
-<p class="role-line"><strong>FACS Application Programmer</strong><span class="role-date">03/2015–07/2015</span></p>
+<p class="role-line"><strong>FACS Application Programmer</strong><span class="role-date">03/2015 – 07/2015</span></p>
 <p class="developed-line"><strong>Developed in:</strong> FACS, VBScript, AutoHotKey, Jasper Reports, Crystal Reports</p>
 
 - Maintained database operations at peak performance, protecting secured information and ensuring data integrity.
@@ -101,7 +101,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 ### QRS, Inc. — Knoxville, TN
 
-<p class="role-line"><strong>EHR Developer / Software Developer</strong><span class="role-date">05/2009–02/2015</span></p>
+<p class="role-line"><strong>EHR Developer / Software Developer</strong><span class="role-date">05/2009 – 02/2015</span></p>
 <p class="developed-line"><strong>Developed in:</strong> JavaScript, HTML, CSS, PHP, Python, Perl, Linux, MySQL, MSSQL, c-tree</p>
 
 - Indirectly led other EHR programmers on client-facing clinical software projects.
@@ -124,7 +124,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 
 ## Education
 
-<p class="credential-entry"><strong>Pellissippi Technical Community College</strong> — Knoxville, TN <span class="credential-date">05/2007–05/2009</span></p>
+<p class="credential-entry"><strong>Pellissippi Technical Community College</strong> — Knoxville, TN <span class="credential-date">05/2007 – 05/2009</span></p>
 
 <ul class="education-details">
   <li>A.A.S. Computer Programming</li>

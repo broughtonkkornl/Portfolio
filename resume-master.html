@@ -6,11 +6,11 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Kimberly K. Broughton — Master Résumé Preview</title>
 <style>
-    :root { color: #1f2937; background: #eef2f7; font-family: Arial, sans-serif; }
+    :root { color: #1a1a2e; background: #f3f4f6; font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
     body { margin: 0; padding: 2rem; }
     main { max-width: 850px; margin: 0 auto; padding: 3rem; background: #fff; box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12); }
     h1 { margin-top: 0; font-size: 2rem; }
-    h2 { margin-top: 2rem; padding-bottom: 0.35rem; border-bottom: 2px solid #1f2937; font-size: 1.2rem; text-transform: uppercase; }
+    h2 { margin-top: 2rem; padding-bottom: 0.35rem; border-bottom: 2px solid #1a3a6b; color: #1a3a6b; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 0.06em; }
     h3 { margin-bottom: 0.35rem; font-size: 1rem; }
     p, li { line-height: 1.45; }
     ul { padding-left: 1.5rem; margin: 0.55rem 0 1rem; }
@@ -21,7 +21,7 @@
     .resume-group-divider { border: 0; height: 1px; background: #d9dde5; margin: 1rem 0; }
     .resume-job { break-inside: avoid; page-break-inside: avoid; }
     .achievement-main { margin: 0.55rem 0; }
-    a { color: #075985; }
+    a { color: #1a3a6b; }
     :focus-visible { outline: 3px solid #0f766e; outline-offset: 3px; }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
     blockquote { margin: 0 0 1.5rem; padding: 0.75rem 1rem; border-left: 4px solid #0f766e; background: #f0fdfa; color: #334155; }
@@ -65,7 +65,7 @@
     })
     .catch(function () {
       var preview = document.getElementById('preview');
-      preview.textContent = 'Unable to load the master résumé.';
+      preview.innerHTML = 'Unable to load the master résumé directly from the filesystem. <a href="resume-master.md">Open the résumé source</a> or view this preview through a local web server.';
       preview.setAttribute('aria-busy', 'false');
       document.getElementById('loadStatus').textContent = 'Unable to load the master résumé.';
     });
