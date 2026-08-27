@@ -89,7 +89,7 @@ Developed in: Python, JavaScript (above frameworks and DevOps), SQLAlchemy, Grap
 - Assisted in refactoring and expanding River Function Indicator Questionnaire (RFIQ) to a generalized <a href="https://hydroeds.ornl.gov/">Environmental Decision Support Toolkit</a>
 - Designed and implemented MyWorkSpace, a modular data order application expanding user download options
 - Delivered an Ingest Dashboard with a three-developer team for ORNL DAAC ingest operations (MVP live), architected to interface with Earthdata Pub for QA and full automation
-- Automated processing workflows, reducing manual processing time by 80%
+- For ORNL DAAC's new Ingest Dashboard, reduced manual processing time by 80% through workflow automation
 - Modernized sites and scripts from Perl to Python with an efficient templating system
 - Implemented automated unit and end-to-end testing to improve deployment confidence and reduce regression defects
 - Built metadata import/export pipelines supporting multiple formats and standards

@@ -55,7 +55,7 @@ Software Engineer with over 17 years of experience designing, developing, and mo
 - Assisted in refactoring and expanding the River Function Indicator Questionnaire (RFIQ) to a generalized [Environmental Decision Support Toolkit](https://hydroeds.ornl.gov/).
 - Designed and implemented MyWorkSpace, a modular data-order application expanding user download options.
 - Delivered an Ingest Dashboard with a three-developer team for ORNL DAAC ingest operations (MVP live), architected to interface with Earthdata Pub for QA and full automation.
-- Automated processing workflows, reducing manual processing time by 80%.
+- For ORNL DAAC's new Ingest Dashboard, reduced manual processing time by 80% through workflow automation.
 - Modernized sites and scripts from Perl to Python with an efficient templating system.
 - Implemented automated unit and end-to-end testing to improve deployment confidence and reduce regression defects.
 - Built metadata import/export pipelines supporting multiple formats and standards.
